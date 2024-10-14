@@ -1,0 +1,160 @@
+@charset "UTF-8";
+
+.auditoria-collapse {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  visibility: hidden;
+  transition: max-height 0.3s ease !important;
+}
+
+/* Establece el estilo cuando la auditoría está visible */
+.auditoria-collapse.show {
+  max-height: 1000px;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+.animation-l {
+  animation: fadeInF 0.5s;
+}
+
+@keyframes fadeInF {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeOutUp {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  to {
+    opacity: 0;
+    transform: translateY(-10%);
+  }
+}
+
+
+/* Animacion Text Swal */
+.slide-vertical {
+  overflow: hidden;
+}
+
+.slide-vertical ul,
+.slide-vertical li {
+  list-style: none;
+}
+
+.slide-vertical ul {
+  width: 100%;
+  height: 40px;
+  position: relative;
+  text-align: center;
+}
+
+.elements-2 ul {
+  animation: slide2 5s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite;
+}
+
+.elements-3 ul {
+  animation: slide3 6s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite;
+}
+
+.slide-vertical li {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 200%;
+  line-height: 40px;
+  font-size: 20px;
+}
+
+.slide-vertical li:first-child {
+  top: 100%;
+}
+
+.elements-2 li:last-child {
+  top: 200%;
+}
+
+.elements-3 li:last-child {
+  top: 300%;
+}
+
+@keyframes slide2 {
+  0% {
+    transform: translateY(0%);
+  }
+
+  5%,
+  45% {
+    transform: translateY(-100%);
+  }
+
+  55%,
+  90% {
+    transform: translateY(-200%);
+  }
+
+  100% {
+    transform: translateY(-300%);
+  }
+}
+
+@keyframes slide3 {
+  0% {
+    transform: translateY(0%);
+  }
+
+  6%,
+  30% {
+    transform: translateY(-100%);
+  }
+
+  40%,
+  60% {
+    transform: translateY(-200%);
+  }
+
+  70%,
+  90% {
+    transform: translateY(-300%);
+  }
+
+  100% {
+    transform: translateY(-400%);
+  }
+}

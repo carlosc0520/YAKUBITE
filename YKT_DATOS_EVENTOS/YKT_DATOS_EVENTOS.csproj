@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<Compile Remove="Prueba\**" />
+		<EmbeddedResource Remove="Prueba\**" />
+		<None Remove="Prueba\**" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\YKT_DATOS_MODELOS\YKT_DATOS_MODELOS.csproj" />
+		<ProjectReference Include="..\YKT_DATABASE\YKT_DATABASE.csproj" />
+		<ProjectReference Include="..\YKT_CORE\YKT_CORE.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="MediatR" Version="9.0.0" />
+		<PackageReference Include="Dapper" Version="2.1.35" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="COMANDOS\LOGIN\" />
+	  <Folder Include="LOGIN\" />
+	</ItemGroup>
+	
+</Project>

@@ -1,0 +1,108 @@
+@page
+@model YAKUBITE.Pages.Auth.Register.IndexModel
+@{
+    Layout = "Layouts/_BlankLayout";
+    ViewData["Title"] = "Registro Usuarios";
+}
+
+@section VendorStyles {
+    <link rel="stylesheet" href="~/vendor/libs/&#64;form-validation/umd/styles/index.min.css" />
+    <link rel="stylesheet" href="~/vendor/libs/sweetalert2/sweetalert2.dist.css" />
+    <link rel="stylesheet" href="~/vendor/libs/toastr/toastr.dist.css" />
+    <link rel="stylesheet" href="~/vendor/libs/animate-css/animate.dist.css">
+}
+
+ 
+@section PageStyles {
+    <link rel="stylesheet" href="~/vendor/css/pages/page-auth.dist.css">
+}
+
+@section VendorScripts {
+    <script src="~/vendor/libs/&#64;form-validation/umd/bundle/popular.min.js"></script>
+    <script src="~/vendor/libs/&#64;form-validation/umd/plugin-bootstrap5/index.min.js"></script>
+    <script src="~/vendor/libs/&#64;form-validation/umd/plugin-auto-focus/index.min.js"></script>
+    <script src="~/vendor/libs/sweetalert2/sweetalert2.dist.js"></script>
+    <script src="~/vendor/libs/toastr/toastr.dist.js"></script>
+}
+
+
+@section PageScripts {
+    <script src="~/app/global.js"></script>
+    <script src="~/app/Register/index.js"></script>
+}
+
+@* ************** Content ************** *@
+
+<div class="authentication-wrapper authentication-cover">
+    <div class="authentication-inner row m-0">
+
+        <!-- /Left Text -->
+        <div class="d-none d-lg-flex col-lg-7 col-xl-8 align-items-center">
+            <div class="flex-row text-center mx-auto">
+                <img src="~/resources/logo_completo.png" alt="Auth Cover Bg color" width="520">
+                <div class="mx-auto">
+                    <p>
+                        Estamos comprometidos a proteger su información personal y su derecho a la privacidad. Si utiliza nuestro sitio web, confía en nosotros con su información personal. Respetamos su privacidad y tomamos en serio su privacidad.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- /Left Text -->
+        <!-- Register -->
+        <div class="d-flex col-12 col-lg-5 col-xl-4 align-items-center authentication-bg p-sm-5 p-4">
+            <div class="w-px-400 mx-auto">
+                <!-- Logo -->
+                <div class="app-brand mb-4">
+                    <a href="/" class="app-brand-link gap-2 mb-2">
+                        <span class="app-brand-logo demo">@await Html.PartialAsync("../_Partials/_Macros")</span>
+                        <span class="app-brand-text demo h3 mb-0 fw-bold">@TempData.Peek("appName")</span>
+                    </a>
+                </div>
+                <!-- /Logo -->
+                <form id="RegisterUser" class="row mb-3" autocomplete="off">
+                    <div class="col-12 mb-3">
+                        <label class="form-label" for="CORREO">Correo  <span class="text-danger">*</span></label>
+                        <input type="email" id="CORREO" name="CORREO" class="form-control" />
+                    </div>
+
+                    <div class="col-12 mb-3"> 
+                        <label class="form-label" for="TELEFONO">Telefono  <span class="text-danger">*</span></label>
+                        <input type="text" id="TELEFONO" name="TELEFONO" class="form-control" />
+                    </div>
+
+                    <div class="col-12 mb-3">
+                        <label class="form-label" for="USUARIO">Usuario  <span class="text-danger">*</span></label>
+                        <input type="text" id="USUARIO" name="USUARIO" class="form-control" />
+                    </div>
+
+                    <div class="col-12 mb-3">
+                        <label class="form-label" for="PASSWORD">Contraseña  <span class="text-danger">*</span></label>
+                        <div class="input-group input-group-merge">
+                            <input type="PASSWORD" id="PASSWORD" class="form-control" name="PASSWORD" placeholder="&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;" aria-describedby="password" />
+                            <span class="input-group-text cursor-pointer"><i class="bx bx-hide"></i></span>
+                        </div>
+                    </div>
+
+
+                    <div class="mb-3">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="TERMS" name="TERMS">
+                            <label class="form-check-label" for="terms-conditions">
+                                Acepto los
+                                <a href="javascript:void(0);">
+                                    términos y condiciones
+                                </a>
+                            </label>
+                        </div>
+                    </div>
+
+                    <button class="btn btn-primary d-grid w-100">
+                        Registrarse
+                    </button>
+                </form>
+
+            </div>
+        </div>
+        <!-- /Register -->
+    </div>
+</div>

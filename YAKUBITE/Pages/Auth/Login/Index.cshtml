@@ -1,0 +1,92 @@
+@page
+@model YAKUBITE.Pages.Auth.Login.IndexModel
+@{
+    Layout = "Layouts/_BlankLayout";
+    ViewData["Title"] = "Login";
+}
+
+@section VendorStyles {
+    <link rel="stylesheet" href="~/vendor/libs/&#64;form-validation/umd/styles/index.min.css" />
+    <link rel="stylesheet" href="~/vendor/libs/sweetalert2/sweetalert2.dist.css" />
+    <link rel="stylesheet" href="~/vendor/libs/toastr/toastr.dist.css" />
+    <link rel="stylesheet" href="~/vendor/libs/animate-css/animate.dist.css">
+}
+
+
+@section PageStyles {
+    <link rel="stylesheet" href="~/vendor/css/pages/page-auth.dist.css">
+}
+
+@section VendorScripts {
+    <script src="~/vendor/libs/&#64;form-validation/umd/bundle/popular.min.js"></script>
+    <script src="~/vendor/libs/&#64;form-validation/umd/plugin-bootstrap5/index.min.js"></script>
+    <script src="~/vendor/libs/&#64;form-validation/umd/plugin-auto-focus/index.min.js"></script>
+    <script src="~/vendor/libs/sweetalert2/sweetalert2.dist.js"></script>
+    <script src="~/vendor/libs/toastr/toastr.dist.js"></script>
+}
+
+@section PageScripts {
+    <script src="~/app/global.js"></script>
+    <script src="~/app/Login/index.js"></script>
+}
+@* ************** Content ************** *@
+
+<div class="authentication-wrapper authentication-cover">
+    <div class="authentication-inner row m-0">
+        <!-- /Left Text -->
+        <div class="d-none d-lg-flex col-lg-7 col-xl-8 align-items-center">
+            <div class="flex-row text-center mx-auto">
+                <img src="~/resources/logo_completo.png" alt="Auth Cover Bg color" width="520">
+                <div class="mx-auto">
+                    <p>
+                        Somos una empresa ....................
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- /Left Text -->
+        <!-- Login -->
+        <div class="d-flex col-12 col-lg-5 col-xl-4 align-items-center authentication-bg p-sm-5 p-4">
+            <div class="w-px-400 mx-auto">
+                <!-- Logo -->
+                <div class="app-brand mb-4">
+                    <a href="/" class="app-brand-link gap-2 mb-2">
+                        <span class="app-brand-logo demo">@await Html.PartialAsync("../_Partials/_Macros")</span>
+                        <span class="app-brand-text demo h3 mb-0 fw-bold">@TempData.Peek("appName")</span>
+                    </a>
+                </div>
+                <!-- /Logo -->
+                <h4 class="mb-2">Bienvenido a @TempData.Peek("appName")! 👋</h4>
+                <p class="mb-4">
+                    Inicia sesión en tu cuenta para continuar.
+                </p>
+
+                <form id="formAuthentication" class="mb-3" action="~/Dashboards/Analytics" method="GET">
+                    <div class="col-12 mb-3">
+                        <label class="form-label" for="USUARIO">Usuario  <span class="text-danger">*</span></label>
+                        <input type="text" id="USUARIO" name="USUARIO" class="form-control" />
+                    </div>
+
+                    <div class="col-12 mb-3">
+                        <label class="form-label" for="PASSWORD">Contraseña  <span class="text-danger">*</span></label>
+                        <div class="input-group input-group-merge">
+                            <input type="PASSWORD" id="PASSWORD" class="form-control" name="PASSWORD" placeholder="&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;" aria-describedby="password" />
+                            <span class="input-group-text cursor-pointer"><i class="bx bx-hide"></i></span>
+                        </div>
+                    </div>
+
+                    <button class="btn btn-primary d-grid w-100">
+                        Iniciar sesión
+                    </button>
+                </form>
+
+                <p class="text-center">
+                    <a href="/Auth/Register/Index">
+                        <span>Crear cuenta</span>
+                    </a>
+                </p>
+            </div>
+        </div>
+        <!-- /Login -->
+    </div>
+</div>
