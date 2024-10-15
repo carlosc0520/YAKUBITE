@@ -1,6 +1,6 @@
 const executeView = () => {
     const uisApis = {
-        ORI: "/Auth/Register/Index?handler",
+        ORI: "/Auth/Login/Index?handler",
     }
 
     // * TABLAS
@@ -17,12 +17,12 @@ const executeView = () => {
         eventos: {
             agregar: () => {
                 let formData = new FormData();
-                formData.append("USUARIO", $("#RegisterUser #USUARIO").val());
-                formData.append("PASSWORD", $("#RegisterUser #PASSWORD").val());
+                formData.append("USUARIO", $("#formAuthentication #USUARIO").val());
+                formData.append("PASSWORD", $("#formAuthentication #PASSWORD").val());
                 
                 swalFire.cargando(["Espere un momento", "Estamos validando sus credenciales"]);
                 $.ajax({
-                    url: uisApis.ORI + '=AutoLogin',
+                    url: uisApis.ORI + '=Login',
                     beforeSend: function (xhr) {
                         xhr.setRequestHeader("XSRF-TOKEN", "XXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                     },
@@ -32,17 +32,29 @@ const executeView = () => {
                     processData: false,
                     data: formData,
                     success: function (data) {
-                        console.log(data);
-                        // if (data?.codEstado > 0) {
-                        //     swalFire.success("Usuario registrado correctamente", "", {
-                        //         1: () => {
-                        //             $("#RegisterUser")[0].reset();
-                        //             window.location.href = "/Auth/Login/Cover";
-                        //         }
-                        //     });
-                        // }
+                        if (data?.codEstado > 0) {
+                            let decodedToken = JSON.parse(atob(data.accessToken.split('.')[1]));
+                            if(decodedToken.Rol == "1"){
+                                swalFire.success("Bienvenido", "Iniciando sesión", {
+                                    1: () => {
+                                        localStorage.setItem("accessToken", data.accessToken);
+                                        window.location.href = `/Admin/Home/`;
+                                    }
+                                });
+                            }
 
-                        // if (data?.codEstado <= 0) swalFire.error(data.mensaje);
+                            if(decodedToken.Rol == "2"){
+                                swalFire.success("Bienvenido", "Iniciando sesión", {
+                                    1: () => {
+                                        localStorage.setItem("accessToken", data.accessToken);
+                                        window.location.href = `/Cliente/Inicio`;
+                                    }
+                                });
+                            }
+                        
+                        }
+
+                        if (data?.codEstado <= 0) swalFire.error(data.message);
                     },
                     error: function (xhr, status, error) {
                         swalFire.error("Ocurrió un error al validar sus credenciales");
@@ -54,7 +66,7 @@ const executeView = () => {
             autenticar: {
                 "USUARIO": agregarValidaciones({
                     required: true,
-                    minlength: 10,
+                    minlength: 5,
                 }),
                 "PASSWORD": agregarValidaciones({
                     required: true,

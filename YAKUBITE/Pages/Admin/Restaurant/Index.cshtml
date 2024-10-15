@@ -1,0 +1,75 @@
+@page
+@model YAKUBITE.Pages.Admin.Restaurant.IndexModel
+@{
+    ViewData["Title"] = "Restaurant - Admin";
+}
+
+
+@section VendorStyles {
+    <link rel="stylesheet" href="~/vendor/libs/datatables-bs5/datatables.bootstrap5.dist.css">
+    <link rel="stylesheet" href="~/vendor/libs/datatables-responsive-bs5/responsive.bootstrap5.dist.css">
+    <link rel="stylesheet" href="~/vendor/libs/datatables-buttons-bs5/buttons.bootstrap5.dist.css">
+    <link rel="stylesheet" href="~/vendor/libs/&#64;form-validation/umd/styles/index.min.css" />
+    <link rel="stylesheet" href="~/vendor/libs/flatpickr/flatpickr.dist.css" />
+    <link rel="stylesheet" href="~/vendor/libs/dropzone/dropzone.dist.css" />
+}
+
+@section VendorScripts {
+    <script src="~/vendor/libs/block-ui/block-ui.dist.js"></script>
+    <script src="~/vendor/libs/datatables-bs5/datatables-bootstrap5.dist.js"></script>
+    <script src="~/vendor/libs/flatpickr/flatpickr.dist.js"></script>
+    <script src="~/vendor/libs/&#64;form-validation/umd/bundle/popular.min.js"></script>
+    <script src="~/vendor/libs/&#64;form-validation/umd/plugin-bootstrap5/index.min.js"></script>
+    <script src="~/vendor/libs/&#64;form-validation/umd/plugin-auto-focus/index.min.js"></script>
+    <script src="~/vendor/libs/dropzone/dropzone.dist.js"></script>
+}
+
+@section PageScripts {
+    <script src="~/app/ADMIN/RESTAURANT/index.js"></script>
+}
+
+
+@* ************** Content ************** *@
+<h4 class="py-3 breadcrumb-wrapper mb-4">
+    <span class="text-muted fw-light">Restaurant /</span> Listado
+</h4>
+
+
+<div class="col-12">
+    <div class="nav-align-top mb-4">
+        <ul class="nav nav-tabs nav-fill" role="tablist">
+            <li class="nav-item">
+                <button type="button" class="nav-link active" role="tab" data-bs-toggle="tab"
+                        data-bs-target="#navs-restaurant" aria-controls="navs-restaurant" aria-selected="false">
+                    <i class="tf-icons bx bx-plus me-1"></i>
+                    Restaurantes
+                </button>
+            </li>
+            <li class="nav-item">
+                <button type="button" class="nav-link" role="tab" data-bs-toggle="tab"
+                        data-bs-target="#navs-menu" disabled="true" aria-controls="navs-menu" aria-selected="false">
+                    <i class="tf-icons bx bx-plus me-1"></i>
+                     Menu
+                </button>
+            </li>
+        </ul>
+        <div class="tab-content p-2">
+            <div class="tab-pane fade show active" id="navs-restaurant" role="tabpanel">
+                <div class="table-responsive pb-2">
+                    <table id="restaurantTable" class="mx-1 table border-top">
+                    </table>
+                </div>
+            </div>
+            <div class="p-2 tab-pane fade" id="navs-menu" role="tabpanel">
+                <div class="table-responsive pb-2">
+                    <div id="menuTable_title" class="card-header pb-2"></div>
+                    <table id="menuTable" class="mx-1 table border-top">
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@await Html.PartialAsync("./_Partials/_ModalAgregarRestaurant")
+@await Html.PartialAsync("./_Partials/_ModalEditarRestaurant")

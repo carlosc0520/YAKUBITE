@@ -17,3 +17,4 @@ C:\Users\User\Downloads\YAKUBITE_APP\YKT_DATOS_MODELOS\obj\Debug\net8.0\YKT_DATO
 C:\Users\User\Downloads\YAKUBITE_APP\YKT_DATOS_MODELOS\obj\Debug\net8.0\refint\YKT_DATOS_MODELOS.dll
 C:\Users\User\Downloads\YAKUBITE_APP\YKT_DATOS_MODELOS\obj\Debug\net8.0\YKT_DATOS_MODELOS.pdb
 C:\Users\User\Downloads\YAKUBITE_APP\YKT_DATOS_MODELOS\obj\Debug\net8.0\ref\YKT_DATOS_MODELOS.dll
+C:\Users\User\Downloads\YAKUBITE_APP\YKT_DATOS_MODELOS\obj\Debug\net8.0\YKT_DATOS_MODELOS.sourcelink.json

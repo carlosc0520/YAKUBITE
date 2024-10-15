@@ -1,0 +1,321 @@
+@page
+@model YAKUBITE.Pages.Cliente.Inicio.IndexModel
+@{
+    Layout = "Layouts/_FrontLayout";
+    ViewData["Title"] = "Inicio - Cliente";
+}
+
+@section VendorStyles {
+    <link rel="stylesheet" href="~/vendor/libs/nouislider/nouislider.dist.css" />
+    <link rel="stylesheet" href="~/vendor/libs/swiper/swiper.dist.css" />
+}
+@section PageStyles {
+    <link rel="stylesheet" href="~/vendor/css/pages/front-page-landing.dist.css" />
+}
+@section VendorScripts {
+    <script src="~/vendor/libs/nouislider/nouislider.dist.js"></script>
+    <script src="~/vendor/libs/swiper/swiper.dist.js"></script>
+}
+@section PageScripts {
+    <script src="~/js/front-page-landing.dist.js"></script>
+}
+
+@* ************** Content ************** *@
+<div data-bs-spy="scroll" class="scrollspy-example">
+
+    <!-- Hero: Start -->
+    <section id="hero-animation">
+        <div id="landingHero" class="section-py landing-hero position-relative">
+            <div class="container">
+                <div class="hero-text-box text-center">
+                    <h1 class="text-primary hero-title display-4 fw-bold"
+                    style="font-style: italic;"
+                    >
+                        ¡Bienvenidos a Yakubite!
+                    </h1>
+                    <h2 class="hero-sub-title h6 mb-4 pb-1">
+                        Nos dedicamos a ofrecer un sitio donde las personas<br class="d-none d-lg-block" />
+                    puedan consumir diferentes platos saludables de distintos restaurantes. 
+                    </h2>
+                </div>
+                <div id="heroDashboardAnimation" class="hero-animation-img">
+                    <a href="/Apps/Ecommerce/Dashboard" target="_blank">
+                        <div id="heroAnimationImg" class="position-relative hero-dashboard-img">
+                            <img src="~/resources/logo_completo.png" alt="hero dashboard" class="animation-img"/>
+                            <img src="~/resources/logo_completo.png" alt="hero elements" class="position-absolute hero-elements-img animation-img top-0 start-0"  />
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="landing-hero-blank"></div>
+    </section>
+    <!-- Hero: End -->
+
+    <!-- Useful features: Start --> 
+    <section id="landingFeatures" class="section-py landing-features">
+        <div class="container">
+            <h3 class="text-center mb-1">
+                <span class="section-title">Nos caracterizamos por</span>
+            </h3>
+            <p class="text-center mb-3 mb-md-5 pb-3">
+                Ofrecemos una plataforma donde los usuarios pueden disfrutar de una amplia variedad de platos saludables.
+            </p>
+            <div class="features-icon-wrapper row gx-0 gy-4 g-sm-5">
+
+                <div class="col-lg-4 col-sm-6 text-center features-icon-box">
+                    <div class="text-center mb-3">
+                        <img src="~/img/front-pages/icons/user-success.png" alt="laptop" class="mb-2" />
+                    </div>
+                    <h5 class="mb-3">Experiencia</h5>
+                    <p class="features-icon-description">
+                        Contamos con una amplia experiencia en el mercado, lo que nos permite ofrecer un servicio de calidad.
+                    </p>
+                </div>
+
+                <div class="col-lg-4 col-sm-6 text-center features-icon-box">
+                    <div class="text-center mb-3">
+                            <img src="~/img/front-pages/icons/diamond-info.png" alt="laptop" class="mb-2" />
+                    </div>
+                    <h5 class="mb-3">Variedad</h5>
+                    <p class="features-icon-description">
+                        Ofrecer una amplia variedad de platos saludables, para que nuestros usuarios puedan disfrutar de diferentes opciones.
+                    </p>
+                </div>
+
+                <div class="col-lg-4 col-sm-6 text-center features-icon-box">
+                    <div class="text-center mb-3">
+                            <img src="~/img/front-pages/icons/check-warning.png" alt="laptop" class="mb-2" />
+                    </div>
+                    <h5 class="mb-3">Calidad</h5>
+                    <p class="features-icon-description">
+                        Nos preocupamos por ofrecer un servicio de calidad, para que nuestros usuarios puedan disfrutar de una experiencia agradable.
+                    </p>
+                </div>
+
+
+                
+            </div>
+        </div>
+    </section>
+    <!-- Useful features: End -->
+
+    <!-- Real customers reviews: Start -->
+    <section id="landingReviews" class="section-py bg-body landing-reviews pb-0">
+        <!-- What people say slider: Start -->
+        <div class="container">
+            <div class="row align-items-center gx-0 gy-4 g-lg-5">
+                <div class="col-md-6 col-lg-5 col-xl-3">
+                    <h3 class="mb-1"><span class="section-title">Testimonios</span></h3>
+                    <p class="mb-3 mb-md-5">
+                        Lo que dicen nuestros clientes sobre nuestro servicio.
+                    </p>
+                    <div class="landing-reviews-btns d-flex align-items-center gap-3">
+                        <button id="reviews-previous-btn" class="btn btn-label-primary reviews-btn" type="button">
+                            <i class="bx bx-chevron-left bx-sm"></i>
+                        </button>
+                        <button id="reviews-next-btn" class="btn btn-label-primary reviews-btn" type="button">
+                            <i class="bx bx-chevron-right bx-sm"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-7 col-xl-9">
+                    <div class="swiper-reviews-carousel overflow-hidden mb-5 pb-md-2 pb-md-3">
+                        <div class="swiper" id="swiper-reviews">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="card h-100">
+                                        <div class="card-body text-body d-flex flex-column justify-content-between h-100">
+                                            <p>
+                                                "Me encanta la variedad de platos que ofrecen, siempre encuentro algo que me gusta."
+                                            </p>
+                                            <div class="text-warning mb-3">
+                                                <i class="bx bxs-star bx-sm"></i>
+                                                <i class="bx bxs-star bx-sm"></i>
+                                                <i class="bx bxs-star bx-sm"></i>
+                                                <i class="bx bxs-star bx-sm"></i>
+                                                <i class="bx bxs-star bx-sm"></i>
+                                            </div>
+                                            <div class="d-flex align-items-center">
+                                                <div class="avatar me-2 avatar-sm">
+                                                    <img src="~/img/avatars/1.png" alt="Avatar" class="rounded-circle" />
+                                                </div>
+                                                <div>
+                                                    <h6 class="mb-0">
+                                                        Brian Johnson
+                                                    </h6>
+                                                    <p class="small text-muted mb-0">Cliente</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card h-100">
+                                        <div class="card-body text-body d-flex flex-column justify-content-between h-100">
+                                            <p>
+                                                "Me encanta la variedad de platos que ofrecen, siempre encuentro algo que me gusta."
+                                            </p>
+                                            <div class="text-warning mb-3">
+                                                <i class="bx bxs-star bx-sm"></i>
+                                                <i class="bx bxs-star bx-sm"></i>
+                                                <i class="bx bxs-star bx-sm"></i>
+                                                <i class="bx bxs-star bx-sm"></i>
+                                                <i class="bx bxs-star bx-sm"></i>
+                                            </div>
+                                            <div class="d-flex align-items-center">
+                                                <div class="avatar me-2 avatar-sm">
+                                                    <img src="~/img/avatars/1.png" alt="Avatar" class="rounded-circle" />
+                                                </div>
+                                                <div>
+                                                    <h6 class="mb-0">
+                                                        Brian Johnson
+                                                    </h6>
+                                                    <p class="small text-muted mb-0">Cliente</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card h-100">
+                                        <div class="card-body text-body d-flex flex-column justify-content-between h-100">
+                                            <p>
+                                                "Me encanta la variedad de platos que ofrecen, siempre encuentro algo que me gusta."
+                                            </p>
+                                            <div class="text-warning mb-3">
+                                                <i class="bx bxs-star bx-sm"></i>
+                                                <i class="bx bxs-star bx-sm"></i>
+                                                <i class="bx bxs-star bx-sm"></i>
+                                                <i class="bx bxs-star bx-sm"></i>
+                                                <i class="bx bxs-star bx-sm"></i>
+                                            </div>
+                                            <div class="d-flex align-items-center">
+                                                <div class="avatar me-2 avatar-sm">
+                                                    <img src="~/img/avatars/1.png" alt="Avatar" class="rounded-circle" />
+                                                </div>
+                                                <div>
+                                                    <h6 class="mb-0">
+                                                        Brian Johnson
+                                                    </h6>
+                                                    <p class="small text-muted mb-0">Cliente</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Logo slider: End -->
+    </section>
+    <!-- Real customers reviews: End -->
+
+    <!-- Our great team: Start -->
+    <section id="landingTeam" class="section-py landing-team">
+        <div class="container">
+            <h3 class="text-center mb-1"><span class="section-title">Empresas</span> Afiliadas</h3>
+            <p class="text-center mb-md-5 pb-3">
+                Contamos con una amplia variedad de empresas afiliadas, que ofrecen una amplia variedad de platos saludables.
+            </p>
+            <div class="row gy-5 mt-2">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="card mt-3 mt-lg-0 shadow-none">
+                        <div class="rounded position-relative team-image-box">
+                            <img src="~/resources/sponsor1.png" class="position-absolute card-img-position bottom-0 start-50 scaleX-n1-rtl img-fluid" alt="human image" />
+                        </div>
+                        <div class="card-body border border-label-primary border-top-0 text-center">
+                            <h5 class="card-title mb-0">La oveja verde</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="card mt-3 mt-lg-0 shadow-none">
+                        <div class="rounded position-relative team-image-box">
+                            <img src="~/resources/sponsor2.png" class="position-absolute card-img-position bottom-0 start-50 scaleX-n1-rtl img-fluid" alt="human image" />
+                        </div>
+                        <div class="card-body border border-label-info border-top-0 text-center">
+                            <h5 class="card-title mb-0">Manzana Verde</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="card mt-3 mt-lg-0 shadow-none">
+                        <div class="rounded position-relative team-image-box">
+                            <img src="~/resources/sponsor3.png" class="position-absolute card-img-position bottom-0 start-50 scaleX-n1-rtl img-fluid" alt="human image" />
+                        </div>
+                        <div class="card-body border border-label-danger border-top-0 text-center">
+                            <h5 class="card-title mb-0">The plant based factory</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="card mt-3 mt-lg-0 shadow-none">
+                        <div class="rounded position-relative team-image-box">
+                            <img src="~/resources/sponsor4.png" class="position-absolute card-img-position bottom-0 start-50 scaleX-n1-rtl img-fluid" alt="human image" />
+                        </div>
+                        <div class="card-body border border-label-success border-top-0 text-center">
+                            <h5 class="card-title mb-0">Healthy Pizza</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Our great team: End -->
+
+    <!-- FAQ: Start -->
+    <section id="landingFAQ" class="section-py bg-body landing-faq">
+        <div class="container">
+
+            <h3 class="text-center mb-1">Preguntas <span class="section-title">frecuentes</span></h3>
+            <p class="text-center mb-5 pb-3">
+                Aquí encontrarás las preguntas más frecuentes que nuestros clientes
+            </p>
+            <div class="row gy-5">
+                <div class="col-lg-5">
+                    <div class="text-center">
+                        <img src="~/img/front-pages/landing-page/faq-boy-with-logos.png" alt="faq boy with logos" class="faq-image" />
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="accordion accordion-header-primary" id="accordionExample">
+                        <div class="card accordion-item active">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#accordionOne" aria-expanded="true" aria-controls="accordionOne">
+                                    ¿Cómo puedo realizar un pedido?
+                                </button>
+                            </h2>
+
+                            <div id="accordionOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                        Para realizar un pedido, debes registrarte en nuestra plataforma y seleccionar el plato que deseas.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#accordionTwo" aria-expanded="false" aria-controls="accordionTwo">
+                                    ¿Cuál es el tiempo de entrega?
+                                </button>
+                            </h2>
+                            <div id="accordionTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  El tiempo de entrega varía dependiendo de la ubicación del cliente.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FAQ: End -->
+
+</div>

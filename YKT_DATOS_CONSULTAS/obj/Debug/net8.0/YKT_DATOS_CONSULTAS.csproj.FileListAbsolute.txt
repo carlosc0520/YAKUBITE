@@ -21,3 +21,4 @@ C:\Users\User\Downloads\YAKUBITE_APP\YKT_DATOS_CONSULTAS\obj\Debug\net8.0\YKT_DA
 C:\Users\User\Downloads\YAKUBITE_APP\YKT_DATOS_CONSULTAS\obj\Debug\net8.0\refint\YKT_DATOS_CONSULTAS.dll
 C:\Users\User\Downloads\YAKUBITE_APP\YKT_DATOS_CONSULTAS\obj\Debug\net8.0\YKT_DATOS_CONSULTAS.pdb
 C:\Users\User\Downloads\YAKUBITE_APP\YKT_DATOS_CONSULTAS\obj\Debug\net8.0\ref\YKT_DATOS_CONSULTAS.dll
+C:\Users\User\Downloads\YAKUBITE_APP\YKT_DATOS_CONSULTAS\obj\Debug\net8.0\YKT_DATOS_CONSULTAS.sourcelink.json

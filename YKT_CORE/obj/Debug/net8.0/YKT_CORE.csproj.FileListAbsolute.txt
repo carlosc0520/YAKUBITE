@@ -13,3 +13,4 @@ C:\Users\User\Downloads\YAKUBITE_APP\YKT_CORE\obj\Debug\net8.0\YKT_CORE.dll
 C:\Users\User\Downloads\YAKUBITE_APP\YKT_CORE\obj\Debug\net8.0\refint\YKT_CORE.dll
 C:\Users\User\Downloads\YAKUBITE_APP\YKT_CORE\obj\Debug\net8.0\YKT_CORE.pdb
 C:\Users\User\Downloads\YAKUBITE_APP\YKT_CORE\obj\Debug\net8.0\ref\YKT_CORE.dll
+C:\Users\User\Downloads\YAKUBITE_APP\YKT_CORE\obj\Debug\net8.0\YKT_CORE.sourcelink.json

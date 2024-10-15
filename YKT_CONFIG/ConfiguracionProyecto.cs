@@ -8,14 +8,14 @@
 
         public const int TIEMPO_SESION_MINUTOS = 120;
 
-        public const string DISK = "https://jurissearch.com/";
-        public const string HOST = "https://localhost:7001/";
-        public const string DISKFILE = "file:///C:/";
+        public const string DISK = "C:\\JAKUBITE\\";
+        public const string HOST = "";
 
         //public const string DISK = "h:\\root\\home\\devcar0520-001\\www\\";
         //public const string HOST = "http://devcar0520-001-site11.etempurl.com/";
-        //public const string DISKFILE = "http://devcar0520-001-site13.etempurl.com/";
 
+
+        //public const string DISKFILE = "http://devcar0520-001-site13.etempurl.com/";
         public static class TEMAS
         {
             public const string Default = "default";

@@ -15,6 +15,8 @@
         public bool EsSatisfactoria => CodEstado >= 0;
         public string Nombre { get; set; }
         public string NombreProcedimiento { get; set; }
+        public string AccessToken { get; set; } = "";
+        public string Message { get; set; } = "";
         public string Mensaje// { get; set; }
         {
             get

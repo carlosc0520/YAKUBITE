@@ -15,6 +15,6 @@
 
 
 	<ItemGroup>
-	  <Folder Include="LOGIN\" />
+	  <Folder Include="CLIENTE\" />
 	</ItemGroup>
 </Project>

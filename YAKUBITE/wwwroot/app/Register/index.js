@@ -46,7 +46,7 @@ const executeView = () => {
                             swalFire.success("Usuario registrado correctamente", "", {
                                 1: () => {
                                     $("#RegisterUser")[0].reset();
-                                    window.location.href = "/Auth/Login/Cover";
+                                    window.location.href = "/Auth/Login";
                                 }
                             });
                         }

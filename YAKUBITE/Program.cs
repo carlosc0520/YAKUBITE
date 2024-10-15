@@ -5,6 +5,8 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using YKT.CONFIG;
 using Microsoft.AspNetCore.Http.Features;
+using YKT_DATOS_CONSULTAS.ADMIN;
+using YKT_DATOS_CONSULTAS.LOGIN;
 
 var builder = WebApplication.CreateBuilder(args);
 var configuration = builder.Configuration;
@@ -53,19 +55,14 @@ builder.WebHost.ConfigureKestrel(serverOptions =>
 
 builder.Services.AddTransient<ITokenValidationService, TokenValidationService>();
 
-//// CONSULTAS
-//#region SEGURIDAD
-//builder.Services.AddTransient<IConsultasModulo, ConsultasModulo>();
-//builder.Services.AddTransient<IConsultasMenu, ConsultasMenu>();
-//builder.Services.AddTransient<IConsultasGrupoDato, ConsultasGrupoDato>();
-//builder.Services.AddTransient<IConsultasMarca, ConsultasMarca>();
-//#endregion SEGURIDAD
 
-//#region COMERCIAL
-//builder.Services.AddTransient<IConsultasPlantilla, ConsultasPlantilla>();
-//builder.Services.AddTransient<IConsultasCurso, ConsultasCurso>();
-//builder.Services.AddTransient<IConsultasContacto, ConsultasContacto>();
-//#endregion COMERCIAL
+#region ADMINISTRADOR
+builder.Services.AddTransient<IConsultasRestaurant, ConsultasRestaurant>();
+#endregion ADMINISTRADOR
+
+#region SEGURIDAD
+builder.Services.AddTransient<IConsultasLogin, ConsultasLogin>();
+#endregion SEGURIDAD
 
 //#region USUARIOS
 //builder.Services.AddTransient<IConsultasRoles, ConsultasRoles>();

@@ -85,3 +85,8 @@
   <!-- Drag Target Area To SlideIn Menu On Small Screens -->
   <div class="drag-target"></div>
 </div>
+
+<script>
+    let tokenAdmin = localStorage.getItem("accessToken")
+    if (!tokenAdmin) window.location.href = "/Auth/Login"
+</script>

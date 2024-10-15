@@ -30,8 +30,11 @@
 
   <!-- Canonical SEO -->
   <link rel="canonical" href='@productPage'>
+    <link rel="stylesheet" href="~/vendor/libs/sweetalert2/sweetalert2.dist.css" />
+    <link rel="stylesheet" href="~/vendor/libs/select2/select2.dist.css" />
+
   <!-- Favicon -->
-  <link rel="icon" type="image/x-icon" href="~/img/favicon/favicon.ico" />
+  <link rel="icon" type="image/x-icon" href="~/resources/logo.ico" />
 
   <!-- Core Styles -->
   @await Html.PartialAsync("Layouts/Sections/_Styles" + ViewData["frontVar"])
@@ -58,6 +61,10 @@
   @RenderSection("VendorScripts", required: false)
 
   <script src='~/js/@ViewData["main"]main.dist.js'></script>
+    <script src='~/app/global.js'></script>
+    <script src="~/vendor/libs/sweetalert2/sweetalert2.dist.js"></script>
+    <script src="~/vendor/libs/select2/select2.dist.js"></script>
+    <script src="~/vendor/libs/moment/moment.dist.js"></script>
 
   <!-- Page Scripts-->
   @RenderSection("PageScripts", required: false)

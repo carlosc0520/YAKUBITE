@@ -1,0 +1,66 @@
+<div class="modal fade" id="modalAddRestaurant" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-simple modal-edit-user">
+        <div class="modal-content p-3 p-md-5">
+            <div class="modal-body">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="text-center mb-4">
+                    <h3>Agregar Restaurant</h3>
+                </div>
+                <form id="AddRestaurant" class="row g-3" method="post">
+                    <div class="col-12 col-md-4">
+                        <label class="form-label" for="RUC">Ruc <span class="text-danger">*</span></label>
+                        <input type="text" id="RUC" name="RUC" class="form-control max-length"/>
+                    </div>
+
+                    <div class="col-12 col-md-4">
+                        <label class="form-label" for="DESCRIPCION">Razón social <span class="text-danger">*</span></label>
+                        <input type="text" id="DESCRIPCION" name="DESCRIPCION" class="form-control max-length" />
+                    </div>
+                    
+                    <div class="col-12 col-md-4">
+                        <label class="form-label" for="ALIAS">Alias <span class="text-danger">*</span></label>
+                        <input type="text" id="ALIAS" name="ALIAS" class="form-control max-length" />
+                    </div>
+
+                    <div class="col-12 col-md-4">
+                        <label class="form-label" for="DIRECCION">Dirección <span class="text-danger">*</span></label>
+                        <input type="text" id="DIRECCION" name="DIRECCION" class="form-control max-length" data-maxlength="50" />
+                    </div>
+
+                    <div class="col-12 col-md-4">
+                        <label class="form-label" for="CATEGORIAGD">Categoria </label>
+                        <select id="CATEGORIAGD" name="CATEGORIAGD" class="select2 form-select" data-allow-clear="true">
+                        </select>
+                    </div>
+
+                    <div class="col-12 col-md-4">
+                        <label class="form-label" for="ESTADO">Estado </label>
+                        <select id="ESTADO" name="ESTADO" class="select2 form-select" data-allow-clear="true">
+                            <option selected value="A">Activo</option>
+                            <option value="I">Inactivo</option>
+                        </select>
+                    </div>
+
+                    <div class="col-12">
+                        <div action="/upload" class="dropzone needsclick
+                            d-flex justify-content-center align-items-center" id="dropzone-area">
+                            <div class="dz-message needsclick">
+                                Arrastra la imagen aquí o haz clic para subir.
+                                <span class="note needsclick">(Esta es sólo una visualización
+                                    <span class="fw-medium">de la</span> imagen.)</span>
+                            </div>
+                            <div class="fallback">
+                                <input name="FILE" name="FILE" type="FILE" accept="image/*" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 text-center mt-4">
+                        <button id="btnAddRestaurant" class="btn btn-primary me-sm-3 me-1">Agregar</button>
+                        <button type="button" class="btn btn-label-secondary" data-bs-dismiss="modal" aria-label="Close">Cancelar</button>
+                    </div>                     
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

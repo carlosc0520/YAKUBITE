@@ -6,6 +6,8 @@
         public DateTime? FCREACION { get; set; } = null;
         public DateTime? FEDICION { get; set; } = null;
         public string? USUARIO { get; set; } = null;
+        public string? USUARIOC { get; set; } = null;
+        public string? USUARIOE { get; set; } = null;
         public string? ESTADO { get; set; } = null;
         public int? RN { get; set; } = null;
         public int? TOTALROWS { get; set; } = null;
@@ -18,7 +20,9 @@
     {
         public int? ID { get; set; }
         public DateTime? FCREACION { get; set; }
-        public DateTime? FEDICION { get; set; } 
+        public DateTime? FEDICION { get; set; }
+        public string? USUARIOC { get; set; }
+        public string? USUARIOE { get; set; } 
         public string? ESTADO { get; set; } 
         public int? RN { get; set; } 
         public int? TOTALROWS { get; set; } 

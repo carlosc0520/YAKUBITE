@@ -15,3 +15,4 @@ C:\Users\User\Downloads\YAKUBITE_APP\YKT_DATABASE\obj\Debug\net8.0\YKT_DATABASE.
 C:\Users\User\Downloads\YAKUBITE_APP\YKT_DATABASE\obj\Debug\net8.0\refint\YKT_DATABASE.dll
 C:\Users\User\Downloads\YAKUBITE_APP\YKT_DATABASE\obj\Debug\net8.0\YKT_DATABASE.pdb
 C:\Users\User\Downloads\YAKUBITE_APP\YKT_DATABASE\obj\Debug\net8.0\ref\YKT_DATABASE.dll
+C:\Users\User\Downloads\YAKUBITE_APP\YKT_DATABASE\obj\Debug\net8.0\YKT_DATABASE.sourcelink.json

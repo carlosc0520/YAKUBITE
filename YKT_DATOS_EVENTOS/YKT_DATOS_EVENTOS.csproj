@@ -7,8 +7,11 @@
   </PropertyGroup>
 
 	<ItemGroup>
+		<Compile Remove="COMANDOS\ADMIN\**" />
 		<Compile Remove="Prueba\**" />
+		<EmbeddedResource Remove="COMANDOS\ADMIN\**" />
 		<EmbeddedResource Remove="Prueba\**" />
+		<None Remove="COMANDOS\ADMIN\**" />
 		<None Remove="Prueba\**" />
 	</ItemGroup>
 
@@ -24,8 +27,8 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="COMANDOS\LOGIN\" />
-	  <Folder Include="LOGIN\" />
+	  <Folder Include="COMANDOS\CLIENTE\" />
+	  <Folder Include="CLIENTE\" />
 	</ItemGroup>
 	
 </Project>

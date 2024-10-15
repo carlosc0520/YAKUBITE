@@ -9,3 +9,4 @@ C:\Users\User\Downloads\YAKUBITE_APP\YKT_CONFIG\obj\Debug\net8.0\YKT_CONFIG.dll
 C:\Users\User\Downloads\YAKUBITE_APP\YKT_CONFIG\obj\Debug\net8.0\refint\YKT_CONFIG.dll
 C:\Users\User\Downloads\YAKUBITE_APP\YKT_CONFIG\obj\Debug\net8.0\YKT_CONFIG.pdb
 C:\Users\User\Downloads\YAKUBITE_APP\YKT_CONFIG\obj\Debug\net8.0\ref\YKT_CONFIG.dll
+C:\Users\User\Downloads\YAKUBITE_APP\YKT_CONFIG\obj\Debug\net8.0\YKT_CONFIG.sourcelink.json
