@@ -102,12 +102,12 @@ bld/
 
 # Ignoring following files/folder only for master
 
-wwwroot/css/*.dist.css
-wwwroot/js/*.dist.js
-wwwroot/vendor/**/*.dist.css
-!wwwroot/vendor/fonts/*.dist.css
-wwwroot/vendor/**/*.dist.js
-wwwroot/vendor/css
+#wwwroot/css/*.dist.css
+#wwwroot/js/*.dist.js
+#wwwroot/vendor/**/*.dist.css
+#!wwwroot/vendor/fonts/*.dist.css
+#wwwroot/vendor/**/*.dist.js
+#wwwroot/vendor/css
 
 
 
