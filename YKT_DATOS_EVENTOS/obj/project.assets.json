@@ -10770,11 +10770,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Downloads\\YAKUBITE_APP\\YKT_DATOS_EVENTOS\\YKT_DATOS_EVENTOS.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_DATOS_EVENTOS\\YKT_DATOS_EVENTOS.csproj",
       "projectName": "YKT_DATOS_EVENTOS",
-      "projectPath": "C:\\Users\\User\\Downloads\\YAKUBITE_APP\\YKT_DATOS_EVENTOS\\YKT_DATOS_EVENTOS.csproj",
+      "projectPath": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_DATOS_EVENTOS\\YKT_DATOS_EVENTOS.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Downloads\\YAKUBITE_APP\\YKT_DATOS_EVENTOS\\obj\\",
+      "outputPath": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_DATOS_EVENTOS\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -10791,14 +10791,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\User\\Downloads\\YAKUBITE_APP\\YKT_CORE\\YKT_CORE.csproj": {
-              "projectPath": "C:\\Users\\User\\Downloads\\YAKUBITE_APP\\YKT_CORE\\YKT_CORE.csproj"
+            "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_CORE\\YKT_CORE.csproj": {
+              "projectPath": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_CORE\\YKT_CORE.csproj"
             },
-            "C:\\Users\\User\\Downloads\\YAKUBITE_APP\\YKT_DATABASE\\YKT_DATABASE.csproj": {
-              "projectPath": "C:\\Users\\User\\Downloads\\YAKUBITE_APP\\YKT_DATABASE\\YKT_DATABASE.csproj"
+            "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_DATABASE\\YKT_DATABASE.csproj": {
+              "projectPath": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_DATABASE\\YKT_DATABASE.csproj"
             },
-            "C:\\Users\\User\\Downloads\\YAKUBITE_APP\\YKT_DATOS_MODELOS\\YKT_DATOS_MODELOS.csproj": {
-              "projectPath": "C:\\Users\\User\\Downloads\\YAKUBITE_APP\\YKT_DATOS_MODELOS\\YKT_DATOS_MODELOS.csproj"
+            "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_DATOS_MODELOS\\YKT_DATOS_MODELOS.csproj": {
+              "projectPath": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_DATOS_MODELOS\\YKT_DATOS_MODELOS.csproj"
             }
           }
         }

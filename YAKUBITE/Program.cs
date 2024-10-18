@@ -58,33 +58,14 @@ builder.Services.AddTransient<ITokenValidationService, TokenValidationService>()
 
 #region ADMINISTRADOR
 builder.Services.AddTransient<IConsultasRestaurant, ConsultasRestaurant>();
+builder.Services.AddTransient<IConsultasUsuario, ConsultasUsuario>();
+builder.Services.AddTransient<IConsultasComunidad, ConsultasComunidad>();
 #endregion ADMINISTRADOR
 
 #region SEGURIDAD
 builder.Services.AddTransient<IConsultasLogin, ConsultasLogin>();
 #endregion SEGURIDAD
 
-//#region USUARIOS
-//builder.Services.AddTransient<IConsultasRoles, ConsultasRoles>();
-//builder.Services.AddTransient<IConsultasPermisos, ConsultasPermisos>();
-//builder.Services.AddTransient<IConsultasPersonas, ConsultasPersonas>();
-//#endregion
-
-//#region MANTENIMIENTOS
-//builder.Services.AddTransient<IConsultasGrupoDatoGD, ConsultasGrupoDatoGD>();
-//builder.Services.AddTransient<IConsultasModulosGD, ConsultasModulosGD>();
-//builder.Services.AddTransient<IConsultasEmpresas, ConsultasEmpresas>();
-//#endregion
-
-//#region MARCAS
-//builder.Services.AddTransient<IConsultasAIC, ConsultasAIC>();
-
-//#endregion
-
-
-//#region MARKETING
-//builder.Services.AddTransient<IConsultasAsistencia, ConsultasAsistencia>();
-//#endregion
 
 var app = builder.Build();
 
@@ -96,7 +77,7 @@ if (!app.Environment.IsDevelopment())
   app.UseHsts();
 }
 
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection(); -- DESCOMENTAR
 app.UseStaticFiles();
 
 app.UseRouting();

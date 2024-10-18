@@ -1,0 +1,77 @@
+<div class="modal fade" id="modalAddUsuario" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-simple modal-edit-user">
+        <div class="modal-content p-3 p-md-5">
+            <div class="modal-body">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="text-center mb-4">
+                    <h3>Agregar Usuario</h3>
+                </div>
+                <form id="AddUsuario" class="row g-3" method="post">
+                    <div class="col-12 col-md-6">
+                        <label class="form-label" for="NOMBRES">Nombres <span class="text-danger">*</span></label>
+                        <input type="text" id="NOMBRES" name="NOMBRES" class="form-control max-length"/>
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <label class="form-label" for="APELLIDOS">Apellidos <span class="text-danger">*</span></label>
+                        <input type="text" id="APELLIDOS" name="APELLIDOS" class="form-control max-length" />
+                    </div>
+                    
+                    <div class="col-12 col-md-4">
+                        <label class="form-label" for="USUARIO">Usuario <span class="text-danger">*</span></label>
+                        <input type="text" id="USUARIO" name="USUARIO" class="form-control max-length" />
+                    </div>
+
+                    <div class="col-12 col-md-4">
+                        <label class="form-label" for="PASSWORD">Contraseña <span class="text-danger">*</span></label>
+                        <input type="password" id="PASSWORD" name="PASSWORD" class="form-control max-length" />
+                    </div>
+
+                    <div class="col-12 col-md-4">
+                        <label class="form-label" for="ROL">Rol </label>
+                        <select id="ROL" name="ROL" class="select2 form-select" data-allow-clear="true">
+                        </select>
+                    </div>
+
+                    <div class="col-12 col-md-4">
+                        <label class="form-label" for="CORREO">Correo <span class="text-danger">*</span></label>
+                        <input type="text" id="CORREO" name="CORREO" class="form-control max-length" data-maxlength="50" />
+                    </div>
+
+                    <div class="col-12 col-md-4">
+                        <label class="form-label" for="TELEFONO">Teléfono </label>
+                        <input type="text" id="TELEFONO" name="TELEFONO" class="form-control max-length" data-maxlength="50" />
+                    </div>
+
+                    <div class="col-12 col-md-4">
+                        <label class="form-label" for="ESTADO">Estado </label>
+                        <select id="ESTADO" name="ESTADO" class="select2 form-select" data-allow-clear="true">
+                            <option selected value="A">Activo</option>
+                            <option value="I">Inactivo</option>
+                        </select>
+                    </div>
+
+
+                    <div class="col-12">
+                        <div action="/upload" class="dropzone needsclick
+                            d-flex justify-content-center align-items-center" id="dropzone-area">
+                            <div class="dz-message needsclick">
+                                Arrastra la imagen aquí o haz clic para subir.
+                                <span class="note needsclick">(Esta es sólo una visualización
+                                    <span class="fw-medium">de la</span> imagen.)</span>
+                            </div>
+                            <div class="fallback">
+                                <input name="FILE" name="FILE" type="FILE" accept="image/*" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 text-center mt-4">
+                        <button id="btnAddUsuario" class="btn btn-primary me-sm-3 me-1">Agregar</button>
+                        <button type="button" class="btn btn-label-secondary" data-bs-dismiss="modal" aria-label="Close">Cancelar</button>
+                    </div>                     
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

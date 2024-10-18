@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ll0ul6XA9FtiIM4NyitkTXTqvSoRJTBzN2782eF++mGIRQnqB25rXjdXnjamTZeuONcoQb1gumCKLPqx9wMuzg==",
+  "dgSpecHash": "HowsrYL8N8q7jHzxe4RHCkXQfmQDd1sYMIq4vynpiAihl7ziRrNW/YdiXYZ27J3R/z3zuJqfQrn+yvQ2Q+rTYQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\Downloads\\YAKUBITE_APP\\YKT_DATOS_CONSULTAS\\YKT_DATOS_CONSULTAS.csproj",
+  "projectFilePath": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_DATOS_CONSULTAS\\YKT_DATOS_CONSULTAS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

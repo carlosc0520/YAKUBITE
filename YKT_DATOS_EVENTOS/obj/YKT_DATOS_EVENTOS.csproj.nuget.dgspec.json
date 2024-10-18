@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Downloads\\YAKUBITE_APP\\YKT_DATOS_EVENTOS\\YKT_DATOS_EVENTOS.csproj": {}
+    "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_DATOS_EVENTOS\\YKT_DATOS_EVENTOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Downloads\\YAKUBITE_APP\\YKT_CONFIG\\YKT_CONFIG.csproj": {
+    "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_CONFIG\\YKT_CONFIG.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Downloads\\YAKUBITE_APP\\YKT_CONFIG\\YKT_CONFIG.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_CONFIG\\YKT_CONFIG.csproj",
         "projectName": "YKT_CONFIG",
-        "projectPath": "C:\\Users\\User\\Downloads\\YAKUBITE_APP\\YKT_CONFIG\\YKT_CONFIG.csproj",
+        "projectPath": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_CONFIG\\YKT_CONFIG.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Downloads\\YAKUBITE_APP\\YKT_CONFIG\\obj\\",
+        "outputPath": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_CONFIG\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -64,14 +64,14 @@
         }
       }
     },
-    "C:\\Users\\User\\Downloads\\YAKUBITE_APP\\YKT_CORE\\YKT_CORE.csproj": {
+    "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_CORE\\YKT_CORE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Downloads\\YAKUBITE_APP\\YKT_CORE\\YKT_CORE.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_CORE\\YKT_CORE.csproj",
         "projectName": "YKT_CORE",
-        "projectPath": "C:\\Users\\User\\Downloads\\YAKUBITE_APP\\YKT_CORE\\YKT_CORE.csproj",
+        "projectPath": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_CORE\\YKT_CORE.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Downloads\\YAKUBITE_APP\\YKT_CORE\\obj\\",
+        "outputPath": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_CORE\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -88,8 +88,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\User\\Downloads\\YAKUBITE_APP\\YKT_CONFIG\\YKT_CONFIG.csproj": {
-                "projectPath": "C:\\Users\\User\\Downloads\\YAKUBITE_APP\\YKT_CONFIG\\YKT_CONFIG.csproj"
+              "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_CONFIG\\YKT_CONFIG.csproj": {
+                "projectPath": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_CONFIG\\YKT_CONFIG.csproj"
               }
             }
           }
@@ -186,14 +186,14 @@
         }
       }
     },
-    "C:\\Users\\User\\Downloads\\YAKUBITE_APP\\YKT_DATABASE\\YKT_DATABASE.csproj": {
+    "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_DATABASE\\YKT_DATABASE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Downloads\\YAKUBITE_APP\\YKT_DATABASE\\YKT_DATABASE.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_DATABASE\\YKT_DATABASE.csproj",
         "projectName": "YKT_DATABASE",
-        "projectPath": "C:\\Users\\User\\Downloads\\YAKUBITE_APP\\YKT_DATABASE\\YKT_DATABASE.csproj",
+        "projectPath": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_DATABASE\\YKT_DATABASE.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Downloads\\YAKUBITE_APP\\YKT_DATABASE\\obj\\",
+        "outputPath": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_DATABASE\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -210,8 +210,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\User\\Downloads\\YAKUBITE_APP\\YKT_CORE\\YKT_CORE.csproj": {
-                "projectPath": "C:\\Users\\User\\Downloads\\YAKUBITE_APP\\YKT_CORE\\YKT_CORE.csproj"
+              "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_CORE\\YKT_CORE.csproj": {
+                "projectPath": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_CORE\\YKT_CORE.csproj"
               }
             }
           }
@@ -296,14 +296,14 @@
         }
       }
     },
-    "C:\\Users\\User\\Downloads\\YAKUBITE_APP\\YKT_DATOS_EVENTOS\\YKT_DATOS_EVENTOS.csproj": {
+    "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_DATOS_EVENTOS\\YKT_DATOS_EVENTOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Downloads\\YAKUBITE_APP\\YKT_DATOS_EVENTOS\\YKT_DATOS_EVENTOS.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_DATOS_EVENTOS\\YKT_DATOS_EVENTOS.csproj",
         "projectName": "YKT_DATOS_EVENTOS",
-        "projectPath": "C:\\Users\\User\\Downloads\\YAKUBITE_APP\\YKT_DATOS_EVENTOS\\YKT_DATOS_EVENTOS.csproj",
+        "projectPath": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_DATOS_EVENTOS\\YKT_DATOS_EVENTOS.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Downloads\\YAKUBITE_APP\\YKT_DATOS_EVENTOS\\obj\\",
+        "outputPath": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_DATOS_EVENTOS\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -320,14 +320,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\User\\Downloads\\YAKUBITE_APP\\YKT_CORE\\YKT_CORE.csproj": {
-                "projectPath": "C:\\Users\\User\\Downloads\\YAKUBITE_APP\\YKT_CORE\\YKT_CORE.csproj"
+              "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_CORE\\YKT_CORE.csproj": {
+                "projectPath": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_CORE\\YKT_CORE.csproj"
               },
-              "C:\\Users\\User\\Downloads\\YAKUBITE_APP\\YKT_DATABASE\\YKT_DATABASE.csproj": {
-                "projectPath": "C:\\Users\\User\\Downloads\\YAKUBITE_APP\\YKT_DATABASE\\YKT_DATABASE.csproj"
+              "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_DATABASE\\YKT_DATABASE.csproj": {
+                "projectPath": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_DATABASE\\YKT_DATABASE.csproj"
               },
-              "C:\\Users\\User\\Downloads\\YAKUBITE_APP\\YKT_DATOS_MODELOS\\YKT_DATOS_MODELOS.csproj": {
-                "projectPath": "C:\\Users\\User\\Downloads\\YAKUBITE_APP\\YKT_DATOS_MODELOS\\YKT_DATOS_MODELOS.csproj"
+              "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_DATOS_MODELOS\\YKT_DATOS_MODELOS.csproj": {
+                "projectPath": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_DATOS_MODELOS\\YKT_DATOS_MODELOS.csproj"
               }
             }
           }
@@ -376,14 +376,14 @@
         }
       }
     },
-    "C:\\Users\\User\\Downloads\\YAKUBITE_APP\\YKT_DATOS_MODELOS\\YKT_DATOS_MODELOS.csproj": {
+    "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_DATOS_MODELOS\\YKT_DATOS_MODELOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Downloads\\YAKUBITE_APP\\YKT_DATOS_MODELOS\\YKT_DATOS_MODELOS.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_DATOS_MODELOS\\YKT_DATOS_MODELOS.csproj",
         "projectName": "YKT_DATOS_MODELOS",
-        "projectPath": "C:\\Users\\User\\Downloads\\YAKUBITE_APP\\YKT_DATOS_MODELOS\\YKT_DATOS_MODELOS.csproj",
+        "projectPath": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_DATOS_MODELOS\\YKT_DATOS_MODELOS.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Downloads\\YAKUBITE_APP\\YKT_DATOS_MODELOS\\obj\\",
+        "outputPath": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_DATOS_MODELOS\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -400,11 +400,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\User\\Downloads\\YAKUBITE_APP\\YKT_CORE\\YKT_CORE.csproj": {
-                "projectPath": "C:\\Users\\User\\Downloads\\YAKUBITE_APP\\YKT_CORE\\YKT_CORE.csproj"
+              "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_CORE\\YKT_CORE.csproj": {
+                "projectPath": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_CORE\\YKT_CORE.csproj"
               },
-              "C:\\Users\\User\\Downloads\\YAKUBITE_APP\\YKT_ENTIDAD\\YKT_ENTIDAD.csproj": {
-                "projectPath": "C:\\Users\\User\\Downloads\\YAKUBITE_APP\\YKT_ENTIDAD\\YKT_ENTIDAD.csproj"
+              "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_ENTIDAD\\YKT_ENTIDAD.csproj": {
+                "projectPath": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_ENTIDAD\\YKT_ENTIDAD.csproj"
               }
             }
           }
@@ -443,14 +443,14 @@
         }
       }
     },
-    "C:\\Users\\User\\Downloads\\YAKUBITE_APP\\YKT_ENTIDAD\\YKT_ENTIDAD.csproj": {
+    "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_ENTIDAD\\YKT_ENTIDAD.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Downloads\\YAKUBITE_APP\\YKT_ENTIDAD\\YKT_ENTIDAD.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_ENTIDAD\\YKT_ENTIDAD.csproj",
         "projectName": "YKT_ENTIDAD",
-        "projectPath": "C:\\Users\\User\\Downloads\\YAKUBITE_APP\\YKT_ENTIDAD\\YKT_ENTIDAD.csproj",
+        "projectPath": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_ENTIDAD\\YKT_ENTIDAD.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Downloads\\YAKUBITE_APP\\YKT_ENTIDAD\\obj\\",
+        "outputPath": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_ENTIDAD\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

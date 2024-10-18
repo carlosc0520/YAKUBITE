@@ -9446,11 +9446,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Downloads\\YAKUBITE_APP\\YKT_CORE\\YKT_CORE.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_CORE\\YKT_CORE.csproj",
       "projectName": "YKT_CORE",
-      "projectPath": "C:\\Users\\User\\Downloads\\YAKUBITE_APP\\YKT_CORE\\YKT_CORE.csproj",
+      "projectPath": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_CORE\\YKT_CORE.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Downloads\\YAKUBITE_APP\\YKT_CORE\\obj\\",
+      "outputPath": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_CORE\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -9467,8 +9467,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\User\\Downloads\\YAKUBITE_APP\\YKT_CONFIG\\YKT_CONFIG.csproj": {
-              "projectPath": "C:\\Users\\User\\Downloads\\YAKUBITE_APP\\YKT_CONFIG\\YKT_CONFIG.csproj"
+            "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_CONFIG\\YKT_CONFIG.csproj": {
+              "projectPath": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_CONFIG\\YKT_CONFIG.csproj"
             }
           }
         }

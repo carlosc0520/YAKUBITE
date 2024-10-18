@@ -9,7 +9,7 @@ using System.Text.Json;
 
 namespace YKT_DATOS_EVENTOS.ADMIN.RESTAURANT
 {
-    internal class ControladorInsertarRestaurant : IRequestHandler<ComandoInsertarRestaurant, RespuestaConsulta>
+    public class ControladorInsertarRestaurant : IRequestHandler<ComandoInsertarRestaurant, RespuestaConsulta>
     {
         private readonly IConfiguration _configuration;
 
