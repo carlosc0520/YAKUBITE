@@ -9,7 +9,6 @@ document.addEventListener('DOMContentLoaded', function () {
     const emailList = document.querySelector('.email-list'),
       emailListItems = [].slice.call(document.querySelectorAll('.email-list-item')),
       emailListItemInputs = [].slice.call(document.querySelectorAll('.email-list-item-input')),
-      refreshEmails = document.querySelector('.email-refresh'),
       emailView = document.querySelector('.app-email-view-content'),
       emailFilters = document.querySelector('.email-filters'),
       emailFilterByFolders = [].slice.call(document.querySelectorAll('.email-filter-folders li')),
@@ -26,6 +25,7 @@ document.addEventListener('DOMContentLoaded', function () {
       emailListDelete = document.querySelector('.email-list-delete'),
       emailListRead = document.querySelector('.email-list-read'),
       emailListEmpty = document.querySelector('.email-list-empty'),
+      refreshEmails = document.querySelector('.email-refresh'),
       emailViewContainer = document.getElementById('app-email-view'),
       emailFilterFolderLists = [].slice.call(document.querySelectorAll('.email-filter-folders li')),
       emailListItemActions = [].slice.call(document.querySelectorAll('.email-list-item-actions li'));

@@ -17,18 +17,18 @@ const executeView = () => {
     let CrespuestasTable = null;
 
     // * files
-    let myDropzoneAddRestaurant = null;
-    let myDropzoneEditRestaurant = null;
+    let myDropzoneAddForo = null;
+    let myDropzoneEditForo = null;
 
     // * TABLAS
-    const restaurantCrud = {
+    const forosCrud = {
         init: () => {
-            restaurantCrud.eventos.TABLE();
+            forosCrud.eventos.TABLE();
         },
         globales: () => {
             let dropzoneBasic = $('#AddRestaurant #dropzone-area');
             if (dropzoneBasic) {
-                myDropzoneAddRestaurant = new Dropzone(dropzoneBasic[0], {
+                myDropzoneAddForo = new Dropzone(dropzoneBasic[0], {
                     previewTemplate: previewTemplate('imagen'),
                     parallelUploads: 1,
                     maxFilesize: 5,
@@ -46,7 +46,7 @@ const executeView = () => {
 
             let dropzoneBasicEdit = $('#EditRestaurant #dropzone-area');
             if (dropzoneBasicEdit) {
-                myDropzoneEditRestaurant = new Dropzone(dropzoneBasicEdit[0], {
+                myDropzoneEditForo = new Dropzone(dropzoneBasicEdit[0], {
                     previewTemplate: previewTemplateImage('imagen'),
                     createImageThumbnails: false,
                     parallelUploads: 1,
@@ -86,22 +86,22 @@ const executeView = () => {
 
             // * MODALES
             $('#modalAddRestaurant').on('show.bs.modal', function (e) {
-                myDropzoneAddRestaurant.removeAllFiles();
-                configFormVal('AddRestaurant', restaurantCrud.validaciones.INSERT, () => restaurantCrud.eventos.INSERT());
+                myDropzoneAddForo.removeAllFiles();
+                configFormVal('AddRestaurant', forosCrud.validaciones.INSERT, () => forosCrud.eventos.INSERT());
             });
 
             $('#modalEditRestaurant').on('show.bs.modal', function (e) {
-                myDropzoneEditRestaurant.removeAllFiles();
-                configFormVal('EditRestaurant', restaurantCrud.validaciones.UPDATE, () => restaurantCrud.eventos.UPDATE());
-                func.actualizarForm('EditRestaurant', restaurantCrud.variables.rowEdit);
-                agregarArchivoADropzone(restaurantCrud.variables.rowEdit?.ruta, myDropzoneEditRestaurant);
+                myDropzoneEditForo.removeAllFiles();
+                configFormVal('EditRestaurant', forosCrud.validaciones.UPDATE, () => forosCrud.eventos.UPDATE());
+                func.actualizarForm('EditRestaurant', forosCrud.variables.rowEdit);
+                agregarArchivoADropzone(forosCrud.variables.rowEdit?.ruta, myDropzoneEditForo);
             });
 
             //   // * FORMULARIOS
             $(`#${forosTable}`).on('click', '.edit-row-button', function () {
                 const data = CforosTable.row($(this).parents('tr')).data();
                 if (!data.id) return swalFire.error('No se encontró el restaurant seleccionado');
-                restaurantCrud.variables.rowEdit = data;
+                forosCrud.variables.rowEdit = data;
                 $('#modalEditRestaurant').modal('show');
             });
 
@@ -109,14 +109,14 @@ const executeView = () => {
                 const data = CforosTable.row($(this).parents('tr')).data();
                 if (!data.id) return swalFire.error('No se encontró el restaurant seleccionado');
                 swalFire.confirmar('¿Está seguro de eliminar el Restaurant?', {
-                    1: () => restaurantCrud.eventos.DELETE(data.id)
+                    1: () => forosCrud.eventos.DELETE(data.id)
                 });
             });
 
             $(`#${forosTable}`).on('click', '.view-row-button', function () {
                 const data = CforosTable.row($(this).parents('tr')).data();
                 if (!data.id) return swalFire.error('No se encontró el restaurant seleccionado');
-                restaurantCrud.variables.rowEdit = data;
+                forosCrud.variables.rowEdit = data;
                 redirect(true, 'navs-menu', data.id);
             });
         },
@@ -198,7 +198,7 @@ const executeView = () => {
             },
             INSERT: () => {
 
-                let file = myDropzoneAddRestaurant.files[0];
+                let file = myDropzoneAddForo.files[0];
                 if (!file) return swalFire.error('Debe seleccionar una imagen');
 
                 let formData = new FormData();
@@ -238,18 +238,18 @@ const executeView = () => {
             },
             UPDATE: () => {
 
-                let file = myDropzoneEditRestaurant.files[0];
+                let file = myDropzoneEditForo.files[0];
                 if (!file) return swalFire.error('Debe seleccionar una imagen');
 
                 let formData = new FormData();
-                formData.append('ID', restaurantCrud.variables.rowEdit.id);
+                formData.append('ID', forosCrud.variables.rowEdit.id);
                 formData.append('RUC', $('#EditRestaurant #RUC').val());
                 formData.append('DESCRIPCION', $('#EditRestaurant #DESCRIPCION').val());
                 formData.append('ALIAS', $('#EditRestaurant #ALIAS').val());
                 formData.append('DIRECCION', $('#EditRestaurant #DIRECCION').val());
                 formData.append('CATEGORIAGD', $('#EditRestaurant #CATEGORIAGD').val());
                 formData.append('FILE', file?.isExist ? null : file);
-                formData.append('RUTA', restaurantCrud.variables.rowEdit.ruta);
+                formData.append('RUTA', forosCrud.variables.rowEdit.ruta);
                 formData.append('ESTADO', $('#EditRestaurant #ESTADO').val());
 
                 swalFire.cargando(['Espere un momento', 'Estamos actualizando el Restaurant']);
@@ -349,16 +349,16 @@ const executeView = () => {
         }
     };
 
-    const menuCrud = {
+    const respuestasCrud = {
         init: () => {
-            menuCrud.eventos.TABLE();
+            respuestasCrud.eventos.TABLE();
         },
         globales: () => {
             $(`#${respuestasTable}`).on('click', '.delete-row-button', function () {
                 const data = CrespuestasTable.row($(this).parents('tr')).data();
                 if (!data.id) return swalFire.error('No se encontró el menu seleccionado');
                 swalFire.confirmar('¿Está seguro de eliminar el menu?', {
-                    1: () => menuCrud.eventos.DELETE(data.id)
+                    1: () => respuestasCrud.eventos.DELETE(data.id)
                 });
             });
         },
@@ -367,7 +367,7 @@ const executeView = () => {
         },
         eventos: {
             TABLE: () => {
-                $(`#${respuestasTable}_title`).text('RESTAURANTE: ' + restaurantCrud.variables.rowEdit?.alias || '');
+                $(`#${respuestasTable}_title`).text('RESTAURANTE: ' + forosCrud.variables.rowEdit?.alias || '');
 
                 if (!CrespuestasTable) {
                     CrespuestasTable = $(`#${respuestasTable}`).DataTable({
@@ -380,7 +380,7 @@ const executeView = () => {
                             },
                             data: function (d) {
                                 delete d.columns;
-                                d.IDREST = restaurantCrud.variables.rowEdit.id;
+                                d.IDREST = forosCrud.variables.rowEdit.id;
                                 d.CESTDO = func.obtenerCESTDO(respuestasTable);
                             }
                         },
@@ -514,9 +514,9 @@ const executeView = () => {
             await globales.init();
             await func.limitarCaracteres();
 
-            restaurantCrud.init();
-            restaurantCrud.globales();
-            menuCrud.globales();
+            forosCrud.init();
+            forosCrud.globales();
+            respuestasCrud.globales();
 
             var myTabs = document.querySelectorAll('.nav-tabs button');
             myTabs.forEach(function (tab) {
@@ -524,11 +524,11 @@ const executeView = () => {
                     const tabPane = tab.getAttribute('data-bs-target');
                     if (tabPane === '#navs-restaurant') {
                         redirect(false, 'navs-menu', 0);
-                        restaurantCrud.eventos.TABLE();
+                        forosCrud.eventos.TABLE();
                     }
 
                     if (tabPane === '#navs-menu') {
-                        menuCrud.eventos.TABLE();
+                        respuestasCrud.eventos.TABLE();
                     }
                 });
             });
