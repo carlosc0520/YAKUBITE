@@ -10,6 +10,7 @@ C:\Users\User\Downloads\YAKUBITE_APP\YKT_ENTIDAD\obj\Debug\net8.0\refint\YKT_ENT
 C:\Users\User\Downloads\YAKUBITE_APP\YKT_ENTIDAD\obj\Debug\net8.0\YKT_ENTIDAD.pdb
 C:\Users\User\Downloads\YAKUBITE_APP\YKT_ENTIDAD\obj\Debug\net8.0\ref\YKT_ENTIDAD.dll
 C:\Users\User\Downloads\YAKUBITE_APP\YKT_ENTIDAD\obj\Debug\net8.0\YKT_ENTIDAD.sourcelink.json
+<<<<<<< HEAD
 C:\Users\User\Documents\YAKUBITE_APP\YKT_ENTIDAD\bin\Debug\net8.0\YKT_ENTIDAD.deps.json
 C:\Users\User\Documents\YAKUBITE_APP\YKT_ENTIDAD\bin\Debug\net8.0\YKT_ENTIDAD.dll
 C:\Users\User\Documents\YAKUBITE_APP\YKT_ENTIDAD\bin\Debug\net8.0\YKT_ENTIDAD.pdb
@@ -22,3 +23,17 @@ C:\Users\User\Documents\YAKUBITE_APP\YKT_ENTIDAD\obj\Debug\net8.0\YKT_ENTIDAD.dl
 C:\Users\User\Documents\YAKUBITE_APP\YKT_ENTIDAD\obj\Debug\net8.0\refint\YKT_ENTIDAD.dll
 C:\Users\User\Documents\YAKUBITE_APP\YKT_ENTIDAD\obj\Debug\net8.0\YKT_ENTIDAD.pdb
 C:\Users\User\Documents\YAKUBITE_APP\YKT_ENTIDAD\obj\Debug\net8.0\ref\YKT_ENTIDAD.dll
+=======
+C:\Users\CARLOS\Documents\YAKUBITE\YKT_ENTIDAD\bin\Debug\net8.0\YKT_ENTIDAD.deps.json
+C:\Users\CARLOS\Documents\YAKUBITE\YKT_ENTIDAD\bin\Debug\net8.0\YKT_ENTIDAD.dll
+C:\Users\CARLOS\Documents\YAKUBITE\YKT_ENTIDAD\bin\Debug\net8.0\YKT_ENTIDAD.pdb
+C:\Users\CARLOS\Documents\YAKUBITE\YKT_ENTIDAD\obj\Debug\net8.0\YKT_ENTIDAD.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CARLOS\Documents\YAKUBITE\YKT_ENTIDAD\obj\Debug\net8.0\YKT_ENTIDAD.AssemblyInfoInputs.cache
+C:\Users\CARLOS\Documents\YAKUBITE\YKT_ENTIDAD\obj\Debug\net8.0\YKT_ENTIDAD.AssemblyInfo.cs
+C:\Users\CARLOS\Documents\YAKUBITE\YKT_ENTIDAD\obj\Debug\net8.0\YKT_ENTIDAD.csproj.CoreCompileInputs.cache
+C:\Users\CARLOS\Documents\YAKUBITE\YKT_ENTIDAD\obj\Debug\net8.0\YKT_ENTIDAD.sourcelink.json
+C:\Users\CARLOS\Documents\YAKUBITE\YKT_ENTIDAD\obj\Debug\net8.0\YKT_ENTIDAD.dll
+C:\Users\CARLOS\Documents\YAKUBITE\YKT_ENTIDAD\obj\Debug\net8.0\refint\YKT_ENTIDAD.dll
+C:\Users\CARLOS\Documents\YAKUBITE\YKT_ENTIDAD\obj\Debug\net8.0\YKT_ENTIDAD.pdb
+C:\Users\CARLOS\Documents\YAKUBITE\YKT_ENTIDAD\obj\Debug\net8.0\ref\YKT_ENTIDAD.dll
+>>>>>>> 6cc5bc59ed7d999f564f76e55784c377ef86063e

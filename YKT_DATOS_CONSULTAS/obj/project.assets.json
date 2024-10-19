@@ -10732,19 +10732,27 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\CARLOS\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_DATOS_CONSULTAS\\YKT_DATOS_CONSULTAS.csproj",
       "projectName": "YKT_DATOS_CONSULTAS",
       "projectPath": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_DATOS_CONSULTAS\\YKT_DATOS_CONSULTAS.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_DATOS_CONSULTAS\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_DATOS_CONSULTAS\\YKT_DATOS_CONSULTAS.csproj",
+      "projectName": "YKT_DATOS_CONSULTAS",
+      "projectPath": "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_DATOS_CONSULTAS\\YKT_DATOS_CONSULTAS.csproj",
+      "packagesPath": "C:\\Users\\CARLOS\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_DATOS_CONSULTAS\\obj\\",
+>>>>>>> 6cc5bc59ed7d999f564f76e55784c377ef86063e
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\CARLOS\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -10752,12 +10760,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+<<<<<<< HEAD
             "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_CORE\\YKT_CORE.csproj": {
               "projectPath": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_CORE\\YKT_CORE.csproj"
             },
@@ -10766,6 +10776,16 @@
             },
             "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_DATOS_MODELOS\\YKT_DATOS_MODELOS.csproj": {
               "projectPath": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_DATOS_MODELOS\\YKT_DATOS_MODELOS.csproj"
+=======
+            "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_CORE\\YKT_CORE.csproj": {
+              "projectPath": "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_CORE\\YKT_CORE.csproj"
+            },
+            "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_DATABASE\\YKT_DATABASE.csproj": {
+              "projectPath": "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_DATABASE\\YKT_DATABASE.csproj"
+            },
+            "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_DATOS_MODELOS\\YKT_DATOS_MODELOS.csproj": {
+              "projectPath": "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_DATOS_MODELOS\\YKT_DATOS_MODELOS.csproj"
+>>>>>>> 6cc5bc59ed7d999f564f76e55784c377ef86063e
             }
           }
         }
@@ -10800,7 +10820,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   },

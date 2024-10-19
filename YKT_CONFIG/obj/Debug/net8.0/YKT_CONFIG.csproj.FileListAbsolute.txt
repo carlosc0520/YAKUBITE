@@ -10,6 +10,7 @@ C:\Users\User\Downloads\YAKUBITE_APP\YKT_CONFIG\obj\Debug\net8.0\refint\YKT_CONF
 C:\Users\User\Downloads\YAKUBITE_APP\YKT_CONFIG\obj\Debug\net8.0\YKT_CONFIG.pdb
 C:\Users\User\Downloads\YAKUBITE_APP\YKT_CONFIG\obj\Debug\net8.0\ref\YKT_CONFIG.dll
 C:\Users\User\Downloads\YAKUBITE_APP\YKT_CONFIG\obj\Debug\net8.0\YKT_CONFIG.sourcelink.json
+<<<<<<< HEAD
 C:\Users\User\Documents\YAKUBITE_APP\YKT_CONFIG\bin\Debug\net8.0\YKT_CONFIG.deps.json
 C:\Users\User\Documents\YAKUBITE_APP\YKT_CONFIG\bin\Debug\net8.0\YKT_CONFIG.dll
 C:\Users\User\Documents\YAKUBITE_APP\YKT_CONFIG\bin\Debug\net8.0\YKT_CONFIG.pdb
@@ -22,3 +23,17 @@ C:\Users\User\Documents\YAKUBITE_APP\YKT_CONFIG\obj\Debug\net8.0\YKT_CONFIG.dll
 C:\Users\User\Documents\YAKUBITE_APP\YKT_CONFIG\obj\Debug\net8.0\refint\YKT_CONFIG.dll
 C:\Users\User\Documents\YAKUBITE_APP\YKT_CONFIG\obj\Debug\net8.0\YKT_CONFIG.pdb
 C:\Users\User\Documents\YAKUBITE_APP\YKT_CONFIG\obj\Debug\net8.0\ref\YKT_CONFIG.dll
+=======
+C:\Users\CARLOS\Documents\YAKUBITE\YKT_CONFIG\bin\Debug\net8.0\YKT_CONFIG.deps.json
+C:\Users\CARLOS\Documents\YAKUBITE\YKT_CONFIG\bin\Debug\net8.0\YKT_CONFIG.dll
+C:\Users\CARLOS\Documents\YAKUBITE\YKT_CONFIG\bin\Debug\net8.0\YKT_CONFIG.pdb
+C:\Users\CARLOS\Documents\YAKUBITE\YKT_CONFIG\obj\Debug\net8.0\YKT_CONFIG.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CARLOS\Documents\YAKUBITE\YKT_CONFIG\obj\Debug\net8.0\YKT_CONFIG.AssemblyInfoInputs.cache
+C:\Users\CARLOS\Documents\YAKUBITE\YKT_CONFIG\obj\Debug\net8.0\YKT_CONFIG.AssemblyInfo.cs
+C:\Users\CARLOS\Documents\YAKUBITE\YKT_CONFIG\obj\Debug\net8.0\YKT_CONFIG.csproj.CoreCompileInputs.cache
+C:\Users\CARLOS\Documents\YAKUBITE\YKT_CONFIG\obj\Debug\net8.0\YKT_CONFIG.sourcelink.json
+C:\Users\CARLOS\Documents\YAKUBITE\YKT_CONFIG\obj\Debug\net8.0\YKT_CONFIG.dll
+C:\Users\CARLOS\Documents\YAKUBITE\YKT_CONFIG\obj\Debug\net8.0\refint\YKT_CONFIG.dll
+C:\Users\CARLOS\Documents\YAKUBITE\YKT_CONFIG\obj\Debug\net8.0\YKT_CONFIG.pdb
+C:\Users\CARLOS\Documents\YAKUBITE\YKT_CONFIG\obj\Debug\net8.0\ref\YKT_CONFIG.dll
+>>>>>>> 6cc5bc59ed7d999f564f76e55784c377ef86063e

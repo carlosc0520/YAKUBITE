@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_DATABASE\\YKT_DATABASE.csproj": {}
   },
   "projects": {
@@ -12,9 +13,22 @@
         "projectPath": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_CONFIG\\YKT_CONFIG.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_CONFIG\\obj\\",
+=======
+    "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_DATABASE\\YKT_DATABASE.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_CONFIG\\YKT_CONFIG.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_CONFIG\\YKT_CONFIG.csproj",
+        "projectName": "YKT_CONFIG",
+        "projectPath": "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_CONFIG\\YKT_CONFIG.csproj",
+        "packagesPath": "C:\\Users\\CARLOS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_CONFIG\\obj\\",
+>>>>>>> 6cc5bc59ed7d999f564f76e55784c377ef86063e
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\CARLOS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +36,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -60,10 +75,11 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
+<<<<<<< HEAD
     "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_CORE\\YKT_CORE.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -72,9 +88,19 @@
         "projectPath": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_CORE\\YKT_CORE.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_CORE\\obj\\",
+=======
+    "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_CORE\\YKT_CORE.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_CORE\\YKT_CORE.csproj",
+        "projectName": "YKT_CORE",
+        "projectPath": "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_CORE\\YKT_CORE.csproj",
+        "packagesPath": "C:\\Users\\CARLOS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_CORE\\obj\\",
+>>>>>>> 6cc5bc59ed7d999f564f76e55784c377ef86063e
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\CARLOS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -82,14 +108,20 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+<<<<<<< HEAD
               "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_CONFIG\\YKT_CONFIG.csproj": {
                 "projectPath": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_CONFIG\\YKT_CONFIG.csproj"
+=======
+              "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_CONFIG\\YKT_CONFIG.csproj": {
+                "projectPath": "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_CONFIG\\YKT_CONFIG.csproj"
+>>>>>>> 6cc5bc59ed7d999f564f76e55784c377ef86063e
               }
             }
           }
@@ -182,10 +214,11 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
+<<<<<<< HEAD
     "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_DATABASE\\YKT_DATABASE.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -194,9 +227,19 @@
         "projectPath": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_DATABASE\\YKT_DATABASE.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_DATABASE\\obj\\",
+=======
+    "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_DATABASE\\YKT_DATABASE.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_DATABASE\\YKT_DATABASE.csproj",
+        "projectName": "YKT_DATABASE",
+        "projectPath": "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_DATABASE\\YKT_DATABASE.csproj",
+        "packagesPath": "C:\\Users\\CARLOS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_DATABASE\\obj\\",
+>>>>>>> 6cc5bc59ed7d999f564f76e55784c377ef86063e
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\CARLOS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -204,14 +247,20 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+<<<<<<< HEAD
               "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_CORE\\YKT_CORE.csproj": {
                 "projectPath": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_CORE\\YKT_CORE.csproj"
+=======
+              "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_CORE\\YKT_CORE.csproj": {
+                "projectPath": "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_CORE\\YKT_CORE.csproj"
+>>>>>>> 6cc5bc59ed7d999f564f76e55784c377ef86063e
               }
             }
           }
@@ -292,7 +341,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
