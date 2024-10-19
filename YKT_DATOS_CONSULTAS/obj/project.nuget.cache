@@ -1,14 +1,8 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "HowsrYL8N8q7jHzxe4RHCkXQfmQDd1sYMIq4vynpiAihl7ziRrNW/YdiXYZ27J3R/z3zuJqfQrn+yvQ2Q+rTYQ==",
+  "dgSpecHash": "6M8910qUrew=",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_DATOS_CONSULTAS\\YKT_DATOS_CONSULTAS.csproj",
-=======
-  "dgSpecHash": "/6HTLaAj8c4=",
-  "success": true,
-  "projectFilePath": "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_DATOS_CONSULTAS\\YKT_DATOS_CONSULTAS.csproj",
->>>>>>> 6cc5bc59ed7d999f564f76e55784c377ef86063e
+  "projectFilePath": "C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_DATOS_CONSULTAS\\YKT_DATOS_CONSULTAS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\CARLOS\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\CARLOS\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
@@ -225,6 +219,12 @@
     "C:\\Users\\CARLOS\\.nuget\\packages\\zstdsharp.port\\0.7.1\\zstdsharp.port.0.7.1.nupkg.sha512"
   ],
   "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema al leer el archivo de caché C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_DATOS_CONSULTAS\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    },
     {
       "code": "NU1701",
       "level": "Warning",

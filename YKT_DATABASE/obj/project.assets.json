@@ -10683,19 +10683,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_DATABASE\\YKT_DATABASE.csproj",
+      "projectUniqueName": "C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_DATABASE\\YKT_DATABASE.csproj",
       "projectName": "YKT_DATABASE",
-      "projectPath": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_DATABASE\\YKT_DATABASE.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_DATABASE\\obj\\",
-=======
-      "projectUniqueName": "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_DATABASE\\YKT_DATABASE.csproj",
-      "projectName": "YKT_DATABASE",
-      "projectPath": "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_DATABASE\\YKT_DATABASE.csproj",
+      "projectPath": "C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_DATABASE\\YKT_DATABASE.csproj",
       "packagesPath": "C:\\Users\\CARLOS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_DATABASE\\obj\\",
->>>>>>> 6cc5bc59ed7d999f564f76e55784c377ef86063e
+      "outputPath": "C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_DATABASE\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\CARLOS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -10713,13 +10705,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-<<<<<<< HEAD
-            "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_CORE\\YKT_CORE.csproj": {
-              "projectPath": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_CORE\\YKT_CORE.csproj"
-=======
-            "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_CORE\\YKT_CORE.csproj": {
-              "projectPath": "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_CORE\\YKT_CORE.csproj"
->>>>>>> 6cc5bc59ed7d999f564f76e55784c377ef86063e
+            "C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_CORE\\YKT_CORE.csproj": {
+              "projectPath": "C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_CORE\\YKT_CORE.csproj"
             }
           }
         }
@@ -10809,7 +10796,7 @@
       "code": "Undefined",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Problema al leer el archivo de caché C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_DATABASE\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+      "message": "Problema al leer el archivo de caché C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_DATABASE\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
     },
     {
       "code": "NU1701",

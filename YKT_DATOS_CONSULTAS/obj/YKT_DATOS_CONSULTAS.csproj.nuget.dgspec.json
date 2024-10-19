@@ -1,31 +1,17 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-    "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_DATOS_CONSULTAS\\YKT_DATOS_CONSULTAS.csproj": {}
+    "C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_DATOS_CONSULTAS\\YKT_DATOS_CONSULTAS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_CONFIG\\YKT_CONFIG.csproj": {
+    "C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_CONFIG\\YKT_CONFIG.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_CONFIG\\YKT_CONFIG.csproj",
+        "projectUniqueName": "C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_CONFIG\\YKT_CONFIG.csproj",
         "projectName": "YKT_CONFIG",
-        "projectPath": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_CONFIG\\YKT_CONFIG.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_CONFIG\\obj\\",
-=======
-    "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_DATOS_CONSULTAS\\YKT_DATOS_CONSULTAS.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_CONFIG\\YKT_CONFIG.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_CONFIG\\YKT_CONFIG.csproj",
-        "projectName": "YKT_CONFIG",
-        "projectPath": "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_CONFIG\\YKT_CONFIG.csproj",
+        "projectPath": "C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_CONFIG\\YKT_CONFIG.csproj",
         "packagesPath": "C:\\Users\\CARLOS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_CONFIG\\obj\\",
->>>>>>> 6cc5bc59ed7d999f564f76e55784c377ef86063e
+        "outputPath": "C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_CONFIG\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\CARLOS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -79,25 +65,14 @@
         }
       }
     },
-<<<<<<< HEAD
-    "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_CORE\\YKT_CORE.csproj": {
+    "C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_CORE\\YKT_CORE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_CORE\\YKT_CORE.csproj",
+        "projectUniqueName": "C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_CORE\\YKT_CORE.csproj",
         "projectName": "YKT_CORE",
-        "projectPath": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_CORE\\YKT_CORE.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_CORE\\obj\\",
-=======
-    "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_CORE\\YKT_CORE.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_CORE\\YKT_CORE.csproj",
-        "projectName": "YKT_CORE",
-        "projectPath": "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_CORE\\YKT_CORE.csproj",
+        "projectPath": "C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_CORE\\YKT_CORE.csproj",
         "packagesPath": "C:\\Users\\CARLOS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_CORE\\obj\\",
->>>>>>> 6cc5bc59ed7d999f564f76e55784c377ef86063e
+        "outputPath": "C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_CORE\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\CARLOS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -115,13 +90,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-<<<<<<< HEAD
-              "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_CONFIG\\YKT_CONFIG.csproj": {
-                "projectPath": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_CONFIG\\YKT_CONFIG.csproj"
-=======
-              "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_CONFIG\\YKT_CONFIG.csproj": {
-                "projectPath": "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_CONFIG\\YKT_CONFIG.csproj"
->>>>>>> 6cc5bc59ed7d999f564f76e55784c377ef86063e
+              "C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_CONFIG\\YKT_CONFIG.csproj": {
+                "projectPath": "C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_CONFIG\\YKT_CONFIG.csproj"
               }
             }
           }
@@ -218,25 +188,14 @@
         }
       }
     },
-<<<<<<< HEAD
-    "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_DATABASE\\YKT_DATABASE.csproj": {
+    "C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_DATABASE\\YKT_DATABASE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_DATABASE\\YKT_DATABASE.csproj",
+        "projectUniqueName": "C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_DATABASE\\YKT_DATABASE.csproj",
         "projectName": "YKT_DATABASE",
-        "projectPath": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_DATABASE\\YKT_DATABASE.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_DATABASE\\obj\\",
-=======
-    "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_DATABASE\\YKT_DATABASE.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_DATABASE\\YKT_DATABASE.csproj",
-        "projectName": "YKT_DATABASE",
-        "projectPath": "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_DATABASE\\YKT_DATABASE.csproj",
+        "projectPath": "C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_DATABASE\\YKT_DATABASE.csproj",
         "packagesPath": "C:\\Users\\CARLOS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_DATABASE\\obj\\",
->>>>>>> 6cc5bc59ed7d999f564f76e55784c377ef86063e
+        "outputPath": "C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_DATABASE\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\CARLOS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -254,13 +213,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-<<<<<<< HEAD
-              "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_CORE\\YKT_CORE.csproj": {
-                "projectPath": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_CORE\\YKT_CORE.csproj"
-=======
-              "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_CORE\\YKT_CORE.csproj": {
-                "projectPath": "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_CORE\\YKT_CORE.csproj"
->>>>>>> 6cc5bc59ed7d999f564f76e55784c377ef86063e
+              "C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_CORE\\YKT_CORE.csproj": {
+                "projectPath": "C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_CORE\\YKT_CORE.csproj"
               }
             }
           }
@@ -345,25 +299,14 @@
         }
       }
     },
-<<<<<<< HEAD
-    "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_DATOS_CONSULTAS\\YKT_DATOS_CONSULTAS.csproj": {
+    "C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_DATOS_CONSULTAS\\YKT_DATOS_CONSULTAS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_DATOS_CONSULTAS\\YKT_DATOS_CONSULTAS.csproj",
+        "projectUniqueName": "C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_DATOS_CONSULTAS\\YKT_DATOS_CONSULTAS.csproj",
         "projectName": "YKT_DATOS_CONSULTAS",
-        "projectPath": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_DATOS_CONSULTAS\\YKT_DATOS_CONSULTAS.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_DATOS_CONSULTAS\\obj\\",
-=======
-    "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_DATOS_CONSULTAS\\YKT_DATOS_CONSULTAS.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_DATOS_CONSULTAS\\YKT_DATOS_CONSULTAS.csproj",
-        "projectName": "YKT_DATOS_CONSULTAS",
-        "projectPath": "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_DATOS_CONSULTAS\\YKT_DATOS_CONSULTAS.csproj",
+        "projectPath": "C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_DATOS_CONSULTAS\\YKT_DATOS_CONSULTAS.csproj",
         "packagesPath": "C:\\Users\\CARLOS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_DATOS_CONSULTAS\\obj\\",
->>>>>>> 6cc5bc59ed7d999f564f76e55784c377ef86063e
+        "outputPath": "C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_DATOS_CONSULTAS\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\CARLOS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -381,25 +324,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-<<<<<<< HEAD
-              "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_CORE\\YKT_CORE.csproj": {
-                "projectPath": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_CORE\\YKT_CORE.csproj"
+              "C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_CORE\\YKT_CORE.csproj": {
+                "projectPath": "C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_CORE\\YKT_CORE.csproj"
               },
-              "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_DATABASE\\YKT_DATABASE.csproj": {
-                "projectPath": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_DATABASE\\YKT_DATABASE.csproj"
+              "C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_DATABASE\\YKT_DATABASE.csproj": {
+                "projectPath": "C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_DATABASE\\YKT_DATABASE.csproj"
               },
-              "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_DATOS_MODELOS\\YKT_DATOS_MODELOS.csproj": {
-                "projectPath": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_DATOS_MODELOS\\YKT_DATOS_MODELOS.csproj"
-=======
-              "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_CORE\\YKT_CORE.csproj": {
-                "projectPath": "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_CORE\\YKT_CORE.csproj"
-              },
-              "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_DATABASE\\YKT_DATABASE.csproj": {
-                "projectPath": "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_DATABASE\\YKT_DATABASE.csproj"
-              },
-              "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_DATOS_MODELOS\\YKT_DATOS_MODELOS.csproj": {
-                "projectPath": "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_DATOS_MODELOS\\YKT_DATOS_MODELOS.csproj"
->>>>>>> 6cc5bc59ed7d999f564f76e55784c377ef86063e
+              "C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_DATOS_MODELOS\\YKT_DATOS_MODELOS.csproj": {
+                "projectPath": "C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_DATOS_MODELOS\\YKT_DATOS_MODELOS.csproj"
               }
             }
           }
@@ -438,25 +370,14 @@
         }
       }
     },
-<<<<<<< HEAD
-    "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_DATOS_MODELOS\\YKT_DATOS_MODELOS.csproj": {
+    "C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_DATOS_MODELOS\\YKT_DATOS_MODELOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_DATOS_MODELOS\\YKT_DATOS_MODELOS.csproj",
+        "projectUniqueName": "C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_DATOS_MODELOS\\YKT_DATOS_MODELOS.csproj",
         "projectName": "YKT_DATOS_MODELOS",
-        "projectPath": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_DATOS_MODELOS\\YKT_DATOS_MODELOS.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_DATOS_MODELOS\\obj\\",
-=======
-    "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_DATOS_MODELOS\\YKT_DATOS_MODELOS.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_DATOS_MODELOS\\YKT_DATOS_MODELOS.csproj",
-        "projectName": "YKT_DATOS_MODELOS",
-        "projectPath": "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_DATOS_MODELOS\\YKT_DATOS_MODELOS.csproj",
+        "projectPath": "C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_DATOS_MODELOS\\YKT_DATOS_MODELOS.csproj",
         "packagesPath": "C:\\Users\\CARLOS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_DATOS_MODELOS\\obj\\",
->>>>>>> 6cc5bc59ed7d999f564f76e55784c377ef86063e
+        "outputPath": "C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_DATOS_MODELOS\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\CARLOS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -474,19 +395,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-<<<<<<< HEAD
-              "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_CORE\\YKT_CORE.csproj": {
-                "projectPath": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_CORE\\YKT_CORE.csproj"
+              "C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_CORE\\YKT_CORE.csproj": {
+                "projectPath": "C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_CORE\\YKT_CORE.csproj"
               },
-              "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_ENTIDAD\\YKT_ENTIDAD.csproj": {
-                "projectPath": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_ENTIDAD\\YKT_ENTIDAD.csproj"
-=======
-              "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_CORE\\YKT_CORE.csproj": {
-                "projectPath": "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_CORE\\YKT_CORE.csproj"
-              },
-              "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_ENTIDAD\\YKT_ENTIDAD.csproj": {
-                "projectPath": "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_ENTIDAD\\YKT_ENTIDAD.csproj"
->>>>>>> 6cc5bc59ed7d999f564f76e55784c377ef86063e
+              "C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_ENTIDAD\\YKT_ENTIDAD.csproj": {
+                "projectPath": "C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_ENTIDAD\\YKT_ENTIDAD.csproj"
               }
             }
           }
@@ -525,25 +438,14 @@
         }
       }
     },
-<<<<<<< HEAD
-    "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_ENTIDAD\\YKT_ENTIDAD.csproj": {
+    "C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_ENTIDAD\\YKT_ENTIDAD.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_ENTIDAD\\YKT_ENTIDAD.csproj",
+        "projectUniqueName": "C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_ENTIDAD\\YKT_ENTIDAD.csproj",
         "projectName": "YKT_ENTIDAD",
-        "projectPath": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_ENTIDAD\\YKT_ENTIDAD.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_ENTIDAD\\obj\\",
-=======
-    "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_ENTIDAD\\YKT_ENTIDAD.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_ENTIDAD\\YKT_ENTIDAD.csproj",
-        "projectName": "YKT_ENTIDAD",
-        "projectPath": "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_ENTIDAD\\YKT_ENTIDAD.csproj",
+        "projectPath": "C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_ENTIDAD\\YKT_ENTIDAD.csproj",
         "packagesPath": "C:\\Users\\CARLOS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_ENTIDAD\\obj\\",
->>>>>>> 6cc5bc59ed7d999f564f76e55784c377ef86063e
+        "outputPath": "C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_ENTIDAD\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\CARLOS\\AppData\\Roaming\\NuGet\\NuGet.Config",

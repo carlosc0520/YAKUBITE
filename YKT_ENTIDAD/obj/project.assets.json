@@ -13,19 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_ENTIDAD\\YKT_ENTIDAD.csproj",
+      "projectUniqueName": "C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_ENTIDAD\\YKT_ENTIDAD.csproj",
       "projectName": "YKT_ENTIDAD",
-      "projectPath": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_ENTIDAD\\YKT_ENTIDAD.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_ENTIDAD\\obj\\",
-=======
-      "projectUniqueName": "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_ENTIDAD\\YKT_ENTIDAD.csproj",
-      "projectName": "YKT_ENTIDAD",
-      "projectPath": "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_ENTIDAD\\YKT_ENTIDAD.csproj",
+      "projectPath": "C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_ENTIDAD\\YKT_ENTIDAD.csproj",
       "packagesPath": "C:\\Users\\CARLOS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_ENTIDAD\\obj\\",
->>>>>>> 6cc5bc59ed7d999f564f76e55784c377ef86063e
+      "outputPath": "C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_ENTIDAD\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\CARLOS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -78,5 +70,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema al leer el archivo de caché C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_ENTIDAD\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

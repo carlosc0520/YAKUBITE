@@ -1,14 +1,8 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "f0J0Wc5qtkLrDYM2jRNC2bjFAWNUp/K049AwYh8wzFgpaGXIcOhRz0ctJnwc8gQ5KPp2hQm9ixfdhPyEvNNfFA==",
+  "dgSpecHash": "aqF0tS6OmfY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_DATABASE\\YKT_DATABASE.csproj",
-=======
-  "dgSpecHash": "d9y2GYwocw0=",
-  "success": true,
-  "projectFilePath": "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_DATABASE\\YKT_DATABASE.csproj",
->>>>>>> 6cc5bc59ed7d999f564f76e55784c377ef86063e
+  "projectFilePath": "C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_DATABASE\\YKT_DATABASE.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\CARLOS\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\CARLOS\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
@@ -229,7 +223,7 @@
       "code": "Undefined",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Problema al leer el archivo de caché C:\\Users\\User\\Documents\\YAKUBITE_APP\\YKT_DATABASE\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+      "message": "Problema al leer el archivo de caché C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_DATABASE\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
     },
     {
       "code": "NU1701",
