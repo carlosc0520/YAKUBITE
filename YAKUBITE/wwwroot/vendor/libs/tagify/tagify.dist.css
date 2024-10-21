@@ -497,6 +497,10 @@
   box-sizing: border-box;
   padding: var(--tagify-dd-item-pad);
   margin: 1px;
+<<<<<<< HEAD
+  white-space: pre-wrap;
+=======
+>>>>>>> 6cc5bc59ed7d999f564f76e55784c377ef86063e
   cursor: pointer;
   border-radius: 2px;
   position: relative;
