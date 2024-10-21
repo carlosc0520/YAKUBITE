@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("YKT_DATOS_EVENTOS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3cb89040ce6239919aec39858d03b36542b2913c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4c3fba09e93799f1c616045461e0a19314d63a43")]
 [assembly: System.Reflection.AssemblyProductAttribute("YKT_DATOS_EVENTOS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("YKT_DATOS_EVENTOS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
