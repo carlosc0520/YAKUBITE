@@ -135,7 +135,11 @@
 }
 
 .katex .katex-version::after {
+<<<<<<< HEAD
+  content: "0.16.9";
+=======
   content: "0.16.8";
+>>>>>>> 6cc5bc59ed7d999f564f76e55784c377ef86063e
 }
 
 .katex .katex-mathml {
@@ -233,6 +237,15 @@
   font-family: KaTeX_Fraktur;
 }
 
+<<<<<<< HEAD
+.katex .mathboldfrak,
+.katex .textboldfrak {
+  font-family: KaTeX_Fraktur;
+  font-weight: bold;
+}
+
+=======
+>>>>>>> 6cc5bc59ed7d999f564f76e55784c377ef86063e
 .katex .mathtt {
   font-family: KaTeX_Typewriter;
 }

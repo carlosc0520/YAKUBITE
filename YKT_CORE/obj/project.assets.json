@@ -9446,11 +9446,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_CORE\\YKT_CORE.csproj",
+      "projectUniqueName": "C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_CORE\\YKT_CORE.csproj",
       "projectName": "YKT_CORE",
-      "projectPath": "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_CORE\\YKT_CORE.csproj",
+      "projectPath": "C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_CORE\\YKT_CORE.csproj",
       "packagesPath": "C:\\Users\\CARLOS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_CORE\\obj\\",
+      "outputPath": "C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_CORE\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\CARLOS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -9468,8 +9468,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_CONFIG\\YKT_CONFIG.csproj": {
-              "projectPath": "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_CONFIG\\YKT_CONFIG.csproj"
+            "C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_CONFIG\\YKT_CONFIG.csproj": {
+              "projectPath": "C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_CONFIG\\YKT_CONFIG.csproj"
             }
           }
         }
@@ -9567,6 +9567,12 @@
     }
   },
   "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema al leer el archivo de caché C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_CORE\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    },
     {
       "code": "NU1903",
       "level": "Warning",

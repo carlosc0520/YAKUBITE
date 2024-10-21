@@ -366,12 +366,19 @@ div:where(.swal2-container) button:where(.swal2-styled)::-moz-focus-inner {
   border: 0;
 }
 div:where(.swal2-container) div:where(.swal2-footer) {
+<<<<<<< HEAD
+=======
   justify-content: center;
+>>>>>>> 6cc5bc59ed7d999f564f76e55784c377ef86063e
   margin: 1em 0 0;
   padding: 1em 1em 0;
   border-top: 1px solid #eee;
   color: inherit;
   font-size: 1em;
+<<<<<<< HEAD
+  text-align: center;
+=======
+>>>>>>> 6cc5bc59ed7d999f564f76e55784c377ef86063e
 }
 div:where(.swal2-container) .swal2-timer-progress-bar-container {
   position: absolute;

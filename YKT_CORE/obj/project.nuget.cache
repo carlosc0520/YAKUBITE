@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PHoKt9UXik4=",
+  "dgSpecHash": "Pfc0MZqY0FI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_CORE\\YKT_CORE.csproj",
+  "projectFilePath": "C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_CORE\\YKT_CORE.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\CARLOS\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\CARLOS\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
@@ -194,6 +194,12 @@
     "C:\\Users\\CARLOS\\.nuget\\packages\\system.xml.xpath.xdocument\\4.3.0\\system.xml.xpath.xdocument.4.3.0.nupkg.sha512"
   ],
   "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema al leer el archivo de caché C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_CORE\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    },
     {
       "code": "NU1903",
       "level": "Warning",

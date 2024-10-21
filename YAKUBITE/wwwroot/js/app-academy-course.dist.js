@@ -2,7 +2,7 @@
  * app-academy-course Script
  */
 
-//'use strict';
+'use strict';
 
 // Datatable (jquery)
 

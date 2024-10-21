@@ -10770,11 +10770,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_DATOS_EVENTOS\\YKT_DATOS_EVENTOS.csproj",
+      "projectUniqueName": "C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_DATOS_EVENTOS\\YKT_DATOS_EVENTOS.csproj",
       "projectName": "YKT_DATOS_EVENTOS",
-      "projectPath": "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_DATOS_EVENTOS\\YKT_DATOS_EVENTOS.csproj",
+      "projectPath": "C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_DATOS_EVENTOS\\YKT_DATOS_EVENTOS.csproj",
       "packagesPath": "C:\\Users\\CARLOS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_DATOS_EVENTOS\\obj\\",
+      "outputPath": "C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_DATOS_EVENTOS\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\CARLOS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -10792,14 +10792,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_CORE\\YKT_CORE.csproj": {
-              "projectPath": "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_CORE\\YKT_CORE.csproj"
+            "C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_CORE\\YKT_CORE.csproj": {
+              "projectPath": "C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_CORE\\YKT_CORE.csproj"
             },
-            "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_DATABASE\\YKT_DATABASE.csproj": {
-              "projectPath": "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_DATABASE\\YKT_DATABASE.csproj"
+            "C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_DATABASE\\YKT_DATABASE.csproj": {
+              "projectPath": "C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_DATABASE\\YKT_DATABASE.csproj"
             },
-            "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_DATOS_MODELOS\\YKT_DATOS_MODELOS.csproj": {
-              "projectPath": "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_DATOS_MODELOS\\YKT_DATOS_MODELOS.csproj"
+            "C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_DATOS_MODELOS\\YKT_DATOS_MODELOS.csproj": {
+              "projectPath": "C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_DATOS_MODELOS\\YKT_DATOS_MODELOS.csproj"
             }
           }
         }
@@ -10849,6 +10849,12 @@
     }
   },
   "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema al leer el archivo de caché C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_DATOS_EVENTOS\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    },
     {
       "code": "NU1701",
       "level": "Warning",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_ENTIDAD\\YKT_ENTIDAD.csproj": {}
+    "C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_ENTIDAD\\YKT_ENTIDAD.csproj": {}
   },
   "projects": {
-    "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_ENTIDAD\\YKT_ENTIDAD.csproj": {
+    "C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_ENTIDAD\\YKT_ENTIDAD.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_ENTIDAD\\YKT_ENTIDAD.csproj",
+        "projectUniqueName": "C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_ENTIDAD\\YKT_ENTIDAD.csproj",
         "projectName": "YKT_ENTIDAD",
-        "projectPath": "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_ENTIDAD\\YKT_ENTIDAD.csproj",
+        "projectPath": "C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_ENTIDAD\\YKT_ENTIDAD.csproj",
         "packagesPath": "C:\\Users\\CARLOS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CARLOS\\Documents\\YAKUBITE\\YKT_ENTIDAD\\obj\\",
+        "outputPath": "C:\\Users\\CARLOS\\Downloads\\YAKUBITE_APP\\YKT_ENTIDAD\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\CARLOS\\AppData\\Roaming\\NuGet\\NuGet.Config",
