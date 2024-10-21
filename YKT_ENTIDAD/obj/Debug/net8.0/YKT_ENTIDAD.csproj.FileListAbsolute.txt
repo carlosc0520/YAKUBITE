@@ -49,3 +49,15 @@ C:\Users\CARLOS\Downloads\YAKUBITE_APP\YKT_ENTIDAD\obj\Debug\net8.0\YKT_ENTIDAD.
 C:\Users\CARLOS\Downloads\YAKUBITE_APP\YKT_ENTIDAD\obj\Debug\net8.0\refint\YKT_ENTIDAD.dll
 C:\Users\CARLOS\Downloads\YAKUBITE_APP\YKT_ENTIDAD\obj\Debug\net8.0\YKT_ENTIDAD.pdb
 C:\Users\CARLOS\Downloads\YAKUBITE_APP\YKT_ENTIDAD\obj\Debug\net8.0\ref\YKT_ENTIDAD.dll
+C:\Users\User\Documents\YAKUBITE\YKT_ENTIDAD\bin\Debug\net8.0\YKT_ENTIDAD.deps.json
+C:\Users\User\Documents\YAKUBITE\YKT_ENTIDAD\bin\Debug\net8.0\YKT_ENTIDAD.dll
+C:\Users\User\Documents\YAKUBITE\YKT_ENTIDAD\bin\Debug\net8.0\YKT_ENTIDAD.pdb
+C:\Users\User\Documents\YAKUBITE\YKT_ENTIDAD\obj\Debug\net8.0\YKT_ENTIDAD.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\YAKUBITE\YKT_ENTIDAD\obj\Debug\net8.0\YKT_ENTIDAD.AssemblyInfoInputs.cache
+C:\Users\User\Documents\YAKUBITE\YKT_ENTIDAD\obj\Debug\net8.0\YKT_ENTIDAD.AssemblyInfo.cs
+C:\Users\User\Documents\YAKUBITE\YKT_ENTIDAD\obj\Debug\net8.0\YKT_ENTIDAD.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\YAKUBITE\YKT_ENTIDAD\obj\Debug\net8.0\YKT_ENTIDAD.sourcelink.json
+C:\Users\User\Documents\YAKUBITE\YKT_ENTIDAD\obj\Debug\net8.0\YKT_ENTIDAD.dll
+C:\Users\User\Documents\YAKUBITE\YKT_ENTIDAD\obj\Debug\net8.0\refint\YKT_ENTIDAD.dll
+C:\Users\User\Documents\YAKUBITE\YKT_ENTIDAD\obj\Debug\net8.0\YKT_ENTIDAD.pdb
+C:\Users\User\Documents\YAKUBITE\YKT_ENTIDAD\obj\Debug\net8.0\ref\YKT_ENTIDAD.dll
