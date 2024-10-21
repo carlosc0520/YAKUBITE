@@ -8,10 +8,10 @@
 
         public const int TIEMPO_SESION_MINUTOS = 120;
 
-        //public const string DISK = "h:\\root\\home\\devcar0520-001\\www\\yakubite-files\\yakubite\\";
-        //public const string HOST = "http://devcar0520-001-site12.etempurl.com/";
-        public const string DISK = "C:\\yakubite\\";
-        public const string HOST = "C:\\yakubite\\";
+        public const string DISK = "h:\\root\\home\\devcar0520-001\\www\\yakubite-files\\yakubite\\";
+        public const string HOST = "http://devcar0520-001-site12.etempurl.com/";
+        //public const string DISK = "C:\\yakubite\\";
+        //public const string HOST = "C:\\yakubite\\";
 
         //public const string DISK = "h:\\root\\home\\devcar0520-001\\www\\";
         //public const string HOST = "http://devcar0520-001-site11.etempurl.com/";

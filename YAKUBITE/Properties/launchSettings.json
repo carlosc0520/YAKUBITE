@@ -1,41 +1,3 @@
-//{
-//  "profiles": {
-//    "AspnetCoreFull": {
-//      "commandName": "Project",
-//      "launchBrowser": true,
-//      "environmentVariables": {
-//        "ASPNETCORE_ENVIRONMENT": "Development"
-//      },
-//      "applicationUrl": "https://localhost:7091;http://localhost:5216"
-//    },
-//    "IIS Express": {
-//      "commandName": "IISExpress",
-//      "launchBrowser": true,
-//      "environmentVariables": {
-//        "ASPNETCORE_ENVIRONMENT": "Development"
-//      }
-//    },
-//    "WSL": {
-//      "commandName": "WSL2",
-//      "launchBrowser": true,
-//      "launchUrl": "https://localhost:7091",
-//      "environmentVariables": {
-//        "ASPNETCORE_ENVIRONMENT": "Development",
-//        "ASPNETCORE_URLS": "https://localhost:7091;http://localhost:5216"
-//      },
-//      "distributionName": ""
-//    }
-//  },
-//  "iisSettings": {
-//    "windowsAuthentication": false,
-//    "anonymousAuthentication": true,
-//    "iisExpress": {
-//      "applicationUrl": "http://localhost:3853",
-//      "sslPort": 44376
-//    }
-//  }
-//}
-
 {
   "profiles": {
     "AspnetCoreFull": {
@@ -44,7 +6,7 @@
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
-      "applicationUrl": "http://localhost:5216" // Elimina el HTTPS
+      "applicationUrl": "https://localhost:7091;http://localhost:5216"
     },
     "IIS Express": {
       "commandName": "IISExpress",
@@ -56,10 +18,10 @@
     "WSL": {
       "commandName": "WSL2",
       "launchBrowser": true,
-      "launchUrl": "http://localhost:5216", // Solo HTTP
+      "launchUrl": "https://localhost:7091",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development",
-        "ASPNETCORE_URLS": "http://localhost:5216" // Elimina el HTTPS
+        "ASPNETCORE_URLS": "https://localhost:7091;http://localhost:5216"
       },
       "distributionName": ""
     }
@@ -73,3 +35,41 @@
     }
   }
 }
+
+//{
+//  "profiles": {
+//    "AspnetCoreFull": {
+//      "commandName": "Project",
+//      "launchBrowser": true,
+//      "environmentVariables": {
+//        "ASPNETCORE_ENVIRONMENT": "Development"
+//      },
+//      "applicationUrl": "http://localhost:5216" // Elimina el HTTPS
+//    },
+//    "IIS Express": {
+//      "commandName": "IISExpress",
+//      "launchBrowser": true,
+//      "environmentVariables": {
+//        "ASPNETCORE_ENVIRONMENT": "Development"
+//      }
+//    },
+//    "WSL": {
+//      "commandName": "WSL2",
+//      "launchBrowser": true,
+//      "launchUrl": "http://localhost:5216", // Solo HTTP
+//      "environmentVariables": {
+//        "ASPNETCORE_ENVIRONMENT": "Development",
+//        "ASPNETCORE_URLS": "http://localhost:5216" // Elimina el HTTPS
+//      },
+//      "distributionName": ""
+//    }
+//  },
+//  "iisSettings": {
+//    "windowsAuthentication": false,
+//    "anonymousAuthentication": true,
+//    "iisExpress": {
+//      "applicationUrl": "http://localhost:3853",
+//      "sslPort": 44376
+//    }
+//  }
+//}
