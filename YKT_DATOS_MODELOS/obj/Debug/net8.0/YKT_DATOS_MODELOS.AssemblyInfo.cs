@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("YKT_DATOS_MODELOS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6cc5bc59ed7d999f564f76e55784c377ef86063e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e8756fb9a10d967660701aaf8dfd9e5974e3e274")]
 [assembly: System.Reflection.AssemblyProductAttribute("YKT_DATOS_MODELOS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("YKT_DATOS_MODELOS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
