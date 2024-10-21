@@ -8,6 +8,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="Pages\Admin\Comunidad\Index.cshtml" />
+    <None Include="Pages\Admin\Home\Index.cshtml" />
+    <None Include="Pages\Admin\Recompensas\Index.cshtml" />
+    <None Include="Pages\Admin\Restaurant\Index.cshtml" />
+    <None Include="Pages\Admin\Restaurant\_Partials\_ModalAgregarRestaurant.cshtml" />
+    <None Include="Pages\Admin\Restaurant\_Partials\_ModalEditarRestaurant.cshtml" />
+    <None Include="Pages\Admin\Socios\Index.cshtml" />
+    <None Include="Pages\Admin\Usuarios\Index.cshtml" />
+    <None Include="wwwroot\app\ADMIN\RESTAURANT\index.js" />
+    <None Include="wwwroot\app\global.js" />
+    <None Include="wwwroot\app\Login\index.js" />
+    <None Include="wwwroot\app\Register\index.js" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="ClosedXML" Version="0.102.2" />
     <PackageReference Include="DocumentFormat.OpenXml" Version="2.16.0" />
     <PackageReference Include="FluentFTP" Version="51.1.0" />
@@ -41,6 +56,10 @@
   <ItemGroup>
     <PackageReference Include="MediatR" Version="9.0.0" />
     <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\app\CLIENTE\" />
   </ItemGroup>
 
 </Project>

@@ -1,7 +1,6 @@
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.CodeAnalysis.CSharp.Syntax;
 using Microsoft.IdentityModel.Tokens;
 using YKT.CONFIG;
 using YKT.CORE.Helpers;
@@ -39,7 +38,7 @@ namespace YAKUBITE.Pages.Admin.Restaurant
 
         datos.ForEach(e =>
         {
-          e.RUTA = Path.Combine(ConfiguracionProyecto.DISK, e.RUTA);
+          e.RUTA = Path.Combine(ConfiguracionProyecto.HOST, e.RUTA.Replace("\\", "/"));
         });
 
         return new JsonResult(new { recordsTotal = totalRows, recordsFiltered = totalRows, data = datos, draw = custom.DRAW });
@@ -50,6 +49,30 @@ namespace YAKUBITE.Pages.Admin.Restaurant
       }
 
     }
+
+    [HttpGet]
+    public async Task<IActionResult> OnGetBuscarAllAsync([FromQuery] RestaurantModel custom)
+    {
+      try
+      {
+        HttpContextDraw.SetModelValues(HttpContext, custom);
+        var datos = await _consultasRestaurant.ListarAll(custom);
+        var totalRows = datos?.FirstOrDefault()?.TOTALROWS ?? 0;
+
+        datos.ForEach(e =>
+        {
+          e.RUTA = Path.Combine(ConfiguracionProyecto.HOST, e.RUTA.Replace("\\", "/"));
+        });
+
+        return new JsonResult(new { recordsTotal = totalRows, recordsFiltered = totalRows, data = datos, draw = custom.DRAW });
+      }
+      catch (Exception ex)
+      {
+        return BadRequest(new { success = false, message = "Ocurrió un error al listar los restaurantes.", error = ex.Message });
+      }
+
+    }
+
 
     [HttpPost]
     public async Task<IActionResult> OnPostAddAsync([FromForm] ComandoInsertarRestaurant comando)
@@ -126,5 +149,108 @@ namespace YAKUBITE.Pages.Admin.Restaurant
     }
 
     #endregion
+
+
+    #region MENU
+    [HttpGet]
+    public async Task<IActionResult> OnGetBuscarMenuAsync([FromQuery] MenuModel custom)
+    {
+      try
+      {
+        HttpContextDraw.SetModelValues(HttpContext, custom);
+        var datos = await _consultasRestaurant.ListarMenu(custom);
+        var totalRows = datos?.FirstOrDefault()?.TOTALROWS ?? 0;
+
+        datos.ForEach(e =>
+        {
+          if (!e.RUTA.IsNullOrEmpty()) e.RUTA = Path.Combine(ConfiguracionProyecto.HOST, e.RUTA.Replace("\\", "/"));
+        });
+
+        return new JsonResult(new { recordsTotal = totalRows, recordsFiltered = totalRows, data = datos, draw = custom.DRAW });
+      }
+      catch (Exception ex)
+      {
+        return BadRequest(new { success = false, message = "Ocurrió un error al listar los menus.", error = ex.Message });
+      }
+
+    }
+
+    [HttpPost]
+    public async Task<IActionResult> OnPostAddMenuAsync([FromForm] ComandoInsertarMenu comando)
+    {
+      try
+      {
+        if (comando.FILE != null && comando.FILE.Length > 0)
+        {
+          string folderPath = Path.Combine(ConfiguracionProyecto.DISK, "RESTAURANT", "MENU");
+          if (!Directory.Exists(folderPath)) Directory.CreateDirectory(folderPath);
+
+          string filePath = Path.Combine(folderPath, comando.FILE.FileName);
+          using (var stream = new FileStream(filePath, FileMode.Create))
+          {
+            await comando.FILE.CopyToAsync(stream);
+          }
+
+          comando.RUTA = filePath.Replace(ConfiguracionProyecto.DISK, "");
+        }
+
+        comando.USUARIO = HttpContextDraw.User(HttpContext, 1);
+        var result = await _mediator.Send(comando);
+
+        return new JsonResult(result);
+      }
+      catch (Exception ex)
+      {
+        return StatusCode(500, "Error interno del servidor: " + ex.Message);
+      }
+    }
+
+
+    [HttpPost]
+    public async Task<IActionResult> OnPostUpdateMenuAsync([FromForm] ComandoEditarMenu comando)
+    {
+      try
+      {
+        if (comando.FILE != null && comando.FILE.Length > 0)
+        {
+          if (!string.IsNullOrEmpty(comando.RUTA))
+          {
+            if (System.IO.File.Exists(comando.RUTA)) System.IO.File.Delete(comando.RUTA);
+          }
+
+          string folderPath = Path.Combine(ConfiguracionProyecto.DISK, "RESTAURANT", "MENU");
+          if (!Directory.Exists(folderPath)) Directory.CreateDirectory(folderPath);
+
+          string filePath = Path.Combine(folderPath, comando.FILE.FileName);
+          using (var stream = new FileStream(filePath, FileMode.Create))
+          {
+            await comando.FILE.CopyToAsync(stream);
+          }
+
+          comando.RUTA = filePath;
+        }
+
+        comando.RUTA = comando.RUTA.Replace(ConfiguracionProyecto.DISK, "");
+        comando.USUARIO = HttpContextDraw.User(HttpContext, 1);
+        var result = await _mediator.Send(comando);
+        return new JsonResult(result);
+      }
+      catch (Exception ex)
+      {
+        return StatusCode(500, "Error interno del servidor: " + ex.Message);
+      }
+    }
+
+    [HttpPost]
+    public async Task<IActionResult> OnPostDeleteMenuAsync([FromForm] ComandoEliminarMenu comando)
+    {
+      comando.USUARIO = HttpContextDraw.User(HttpContext, 1);
+      var result = await _mediator.Send(comando);
+      return new JsonResult(result);
+    }
+
+    #endregion
+
+
   }
 }
